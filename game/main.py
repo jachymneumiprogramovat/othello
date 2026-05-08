@@ -5,7 +5,7 @@ import sys
 import pathlib
 from constants import *
 from game import Game
-# from board import Board
+from board import Board
 
 def main():
     """Main function"""
@@ -19,13 +19,19 @@ def main():
     clock = pg.time.Clock()
     running = True
 
-    player = 1
-
     
     game = Game(screen)
     game.setup_screen()
     pg.display.flip()
     logger.info('screen setup')
+
+    board = Board()
+    board.setup_board()
+    logger.info('logic setup')
+
+    board.play_move((2,4))
+    logger.info(f'{board.board}')
+
 
 
     while running:

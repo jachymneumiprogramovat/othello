@@ -13,8 +13,8 @@ class Game:
         self.cell_width = self.width // 8
         self.cell_height = self.height // 8
 
-        self.white_stones = []
-        self.black_stones = []
+        # self.white_stones = []
+        # self.black_stones = []
 
     def _draw_grid(self):
         """Draws lines over a background"""
