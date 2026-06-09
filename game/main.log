@@ -1,0 +1,229 @@
+[32m2026-05-03T11:14:06.081061+0200[0m [1mPygame setup[0m
+[32m2026-05-03T11:14:06.087114+0200[0m [1mscreen setup[0m
+[32m2026-05-03T11:14:09.057231+0200[0m [1mQuit signal received. Exiting...[0m
+[32m2026-05-03T11:16:37.863592+0200[0m [1mPygame setup[0m
+[32m2026-05-03T11:16:37.868778+0200[0m [1mscreen setup[0m
+[32m2026-05-03T11:16:40.548559+0200[0m [1mQuit signal received. Exiting...[0m
+[32m2026-05-03T11:19:00.472155+0200[0m [1mPygame setup[0m
+[32m2026-05-03T11:19:00.479476+0200[0m [1mscreen setup[0m
+[32m2026-05-03T11:19:03.128685+0200[0m [1mQuit signal received. Exiting...[0m
+[32m2026-05-03T11:19:17.684063+0200[0m [1mPygame setup[0m
+[32m2026-05-03T11:19:17.688862+0200[0m [1mscreen setup[0m
+[32m2026-05-03T11:19:21.595849+0200[0m [1mQuit signal received. Exiting...[0m
+[32m2026-05-03T11:20:58.852360+0200[0m [1mPygame setup[0m
+[32m2026-05-03T11:21:05.674020+0200[0m [1mPygame setup[0m
+[32m2026-05-03T11:21:20.295085+0200[0m [1mPygame setup[0m
+[32m2026-05-03T11:21:20.300658+0200[0m [1mscreen setup[0m
+[32m2026-05-03T11:21:22.346217+0200[0m [1mQuit signal received. Exiting...[0m
+[32m2026-05-03T11:22:02.756054+0200[0m [1mPygame setup[0m
+[32m2026-05-03T11:22:02.761659+0200[0m [1mscreen setup[0m
+[32m2026-05-03T11:23:31.399814+0200[0m [1mPygame setup[0m
+[32m2026-05-03T11:23:31.403942+0200[0m [1mscreen setup[0m
+[32m2026-05-03T11:23:34.260231+0200[0m [1mQuit signal received. Exiting...[0m
+[32m2026-05-03T11:24:33.849455+0200[0m [1mPygame setup[0m
+[32m2026-05-03T11:24:33.855337+0200[0m [1mscreen setup[0m
+[32m2026-05-03T11:24:35.594337+0200[0m [1mQuit signal received. Exiting...[0m
+[32m2026-05-03T11:24:42.909737+0200[0m [1mPygame setup[0m
+[32m2026-05-03T11:24:42.915872+0200[0m [1mscreen setup[0m
+[32m2026-05-03T11:24:44.261771+0200[0m [1mQuit signal received. Exiting...[0m
+[32m2026-05-03T11:25:02.699243+0200[0m [1mPygame setup[0m
+[32m2026-05-03T11:25:02.703843+0200[0m [1mscreen setup[0m
+[32m2026-05-03T11:25:03.842575+0200[0m [1mQuit signal received. Exiting...[0m
+[32m2026-05-03T11:26:32.858615+0200[0m [1mPygame setup[0m
+[32m2026-05-03T11:26:32.866064+0200[0m [1mscreen setup[0m
+[32m2026-05-03T11:26:37.313545+0200[0m [1mQuit signal received. Exiting...[0m
+[32m2026-05-03T11:26:53.507397+0200[0m [1mPygame setup[0m
+[32m2026-05-03T11:26:53.516823+0200[0m [1mscreen setup[0m
+[32m2026-05-03T11:26:55.523374+0200[0m [1mQuit signal received. Exiting...[0m
+[32m2026-05-03T11:34:30.567864+0200[0m [1mPygame setup[0m
+[32m2026-05-03T11:34:30.573614+0200[0m [1mscreen setup[0m
+[32m2026-05-03T11:35:21.605096+0200[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/17[0m [1mPygame setup[0m
+[32mmain.py/main/28[0m [1mscreen setup[0m
+[32mmain.py/main/38[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/17[0m [1mPygame setup[0m
+[32mmain.py/main/28[0m [1mscreen setup[0m
+[32mmain.py/main/38[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/17[0m [1mPygame setup[0m
+[32mmain.py/main/28[0m [1mscreen setup[0m
+[32mmain.py/main/17[0m [1mPygame setup[0m
+[32mmain.py/main/28[0m [1mscreen setup[0m
+[32mmain.py/main/17[0m [1mPygame setup[0m
+[32mmain.py/main/28[0m [1mscreen setup[0m
+[32mmain.py/main/17[0m [1mPygame setup[0m
+[32mmain.py/main/28[0m [1mscreen setup[0m
+[32mmain.py/main/17[0m [1mPygame setup[0m
+[32mmain.py/main/28[0m [1mscreen setup[0m
+[32mmain.py/main/32[0m [1mlogic setup[0m
+[32mmain.py/main/42[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/17[0m [1mPygame setup[0m
+[32mmain.py/main/28[0m [1mscreen setup[0m
+[32mboard.py/setup_board/18[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/32[0m [1mlogic setup[0m
+[32mmain.py/main/42[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/17[0m [1mPygame setup[0m
+[32mmain.py/main/28[0m [1mscreen setup[0m
+[32mboard.py/setup_board/18[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/32[0m [1mlogic setup[0m
+[32mmain.py/main/42[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/17[0m [1mPygame setup[0m
+[32mmain.py/main/28[0m [1mscreen setup[0m
+[32mboard.py/setup_board/18[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/32[0m [1mlogic setup[0m
+[32mmain.py/main/43[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/17[0m [1mPygame setup[0m
+[32mmain.py/main/28[0m [1mscreen setup[0m
+[32mboard.py/setup_board/18[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/32[0m [1mlogic setup[0m
+[32mmain.py/main/17[0m [1mPygame setup[0m
+[32mmain.py/main/28[0m [1mscreen setup[0m
+[32mboard.py/setup_board/18[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/32[0m [1mlogic setup[0m
+[32mmain.py/main/17[0m [1mPygame setup[0m
+[32mmain.py/main/28[0m [1mscreen setup[0m
+[32mboard.py/setup_board/18[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/32[0m [1mlogic setup[0m
+[32mmain.py/main/17[0m [1mPygame setup[0m
+[32mmain.py/main/28[0m [1mscreen setup[0m
+[32mboard.py/setup_board/18[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/32[0m [1mlogic setup[0m
+[32mmain.py/main/17[0m [1mPygame setup[0m
+[32mmain.py/main/28[0m [1mscreen setup[0m
+[32mboard.py/setup_board/18[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/32[0m [1mlogic setup[0m
+[32mmain.py/main/44[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/17[0m [1mPygame setup[0m
+[32mmain.py/main/28[0m [1mscreen setup[0m
+[32mboard.py/setup_board/18[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/32[0m [1mlogic setup[0m
+[32mmain.py/main/46[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/17[0m [1mPygame setup[0m
+[32mmain.py/main/26[0m [1mscreen setup[0m
+[32mboard.py/setup_board/18[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/30[0m [1mlogic setup[0m
+[32mboard.py/play_move/61[0m [1mdifference:(np.int64(2), np.int64(0)),distanece:2,direction:(np.float64(1.0), np.float64(0.0))[0m
+[32mmain.py/main/17[0m [1mPygame setup[0m
+[32mmain.py/main/26[0m [1mscreen setup[0m
+[32mboard.py/setup_board/18[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/30[0m [1mlogic setup[0m
+[32mboard.py/play_move/52[0m [1m(2, 4)[0m
+[32mboard.py/play_move/62[0m [1mdifference:(np.int64(2), np.int64(0)),distanece:2,direction:(np.float64(1.0), np.float64(0.0))[0m
+[32mmain.py/main/17[0m [1mPygame setup[0m
+[32mmain.py/main/26[0m [1mscreen setup[0m
+[32mboard.py/setup_board/18[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/30[0m [1mlogic setup[0m
+[32mboard.py/play_move/61[0m [1mdifference:(np.int64(2), np.int64(0)),distanece:2,direction:(np.float64(1.0), np.float64(0.0))[0m
+[32mmain.py/main/33[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0 -1  0  0  0]
+ [ 0  0  0  1  1  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/44[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/17[0m [1mPygame setup[0m
+[32mmain.py/main/26[0m [1mscreen setup[0m
+[32mboard.py/setup_board/18[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/30[0m [1mlogic setup[0m
+[32mboard.py/play_move/61[0m [1mdifference:(np.int64(2), np.int64(0)),distanece:2,direction:(np.float64(1.0), np.float64(0.0))[0m
+[32mmain.py/main/33[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  1  0  0  0]
+ [ 0  0  0  1  1  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/44[0m [1mQuit signal received. Exiting...[0m

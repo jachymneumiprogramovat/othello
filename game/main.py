@@ -44,9 +44,9 @@ def main():
                 logger.info("Quit signal received. Exiting...")
                 running = False
             # Check mouse click
-            # if event.type == pg.MOUSEBUTTONDOWN:
-            #     logger.debug("Mouse click signal received.")
-            #     if event.button == 1:
+            if event.type == pg.MOUSEBUTTONDOWN:
+                logger.debug("Mouse click signal received.")
+                tile = (1,1) # get the mouse position and calculate that
 
 
 
