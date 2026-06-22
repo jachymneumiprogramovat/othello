@@ -39,7 +39,8 @@ class Game:
         stone.move_to(target[0],target[1])
         self.screen.blit(stone.image,stone.rect)
 
-        # asi nepotrebuju color_stones ale zatim to tu necham 
+        # asi nepotrebuju color_stones ale zatim to tu necham
+        # budou jen v Board a ne tady 
         # if color==WHITE_COLOR:
         #     self.white_stones.append(stone)
         # elif color==BLACK_COLOR:
@@ -71,26 +72,16 @@ class Game:
         self._draw_grid()
         self._draw_initial_stones()
 
-    # def _draw_stone(self,target:tuple,color:tuple)->pg.Rect:
-    #     """Draws a stone on target and returns affected rect."""
-    #     stone = Stone(color=color,
-    #                      width=self.cell_width,
-    #                      height=self.cell_height)
-    #     stone.move_to(target[0],target[1])
-    #     self.screen.blit(stone.image,stone.rect)
-    #     return stone.rect
-        
-
 
     def draw_move(self,squares:list[tuple],color:tuple)->list:
         """Draw all the necesary squares to make a move happen. Returns list of
         affected rects."""
         
         affected_rects = []
-        for target in squares:
+        for tile in squares:
             affected_rects.append(
                 self._draw_stone(
-                    target=target,
+                    target=tile,
                     color=color
                     )
                 )
