@@ -1,5 +1,5 @@
 import pygame as pg
-import loguru as logger
+from loguru import logger
 from constants import *
 from stone import Stone
 
@@ -76,16 +76,18 @@ class Game:
     def draw_move(self,squares:list[tuple],color:tuple)->list:
         """Draw all the necesary squares to make a move happen. Returns list of
         affected rects."""
-        
+        logger.info(f'dostal jsem na nakresleni {squares}')
         affected_rects = []
         for tile in squares:
+            logger.info(f'mel bych kreslit {tile}')
+            coordinates = tuple(reversed([(x+0.5)*self.cell_height for x in tile]))
             affected_rects.append(
                 self._draw_stone(
-                    target=tile,
+                    target=coordinates,
                     color=color
                     )
                 )
-
+        logger.info(f'vracim seznam rectu {affected_rects}')
         return affected_rects
 
     def highlite_moves(self,squares:list)->list:

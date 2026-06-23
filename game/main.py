@@ -9,10 +9,11 @@ from constants import *
 from game import Game
 from board import Board
 
-
 def main():
     """Main function"""
 
+    os.environ['SDL_VIDEO_WINDOW_POS'] = "1200,200"
+    pg.mixer.pre_init(44100, -16, 2, 2048)
     # Initing pygame
     pg.init()
     screen = pg.display.set_mode((WIDTH, HEIGHT),pg.SRCALPHA)
@@ -32,14 +33,13 @@ def main():
     board.setup_board()
     logger.info('logic setup')
 
-    board.play_move((2,4))
     logger.info(f'{board.board}')
 
 
 
     while running:
         clock.tick(TIKS)
-
+        rect_to_change = []
 
         for event in pg.event.get():
             # Check quit event
@@ -54,9 +54,11 @@ def main():
                 
                 board.get_possible_moves()
                 to_change = board.play_move(reversed(tile))
-                curr_color = 'white' if board.player ==-1 else 'black'
-                game.draw_move(to_change,curr_color)
-
+                curr_color = WHITE_COLOR if board.player ==-1 else BLACK_COLOR
+                rect_to_change=game.draw_move(to_change,curr_color)
+                board.player *=-1
+                logger.info(rect_to_change)
+        pg.display.update(rect_to_change)
 
 
 
