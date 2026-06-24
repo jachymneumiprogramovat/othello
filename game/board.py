@@ -30,7 +30,6 @@ class Board:
         anchors = []
         op_player = -self.player
         for dir in self.dirs:
-            # print(tile,dir,tuple(np.add(tile,dir)))
             try:
                 if self.board[tuple(np.add(tile,dir))]!=op_player:
                     continue
@@ -39,8 +38,10 @@ class Board:
 
             for i in range(1,len(self.board)):
                 examined = tuple(np.add(tile,tuple(np.array(dir)*i)))
-                teritory = self.board[examined]
-
+                try:
+                    teritory = self.board[examined]
+                except:
+                    continue
                 # does not break only if in this direction are stones of
                 # opposite color
                 # print(f'on tile: {examined} is player: {teritory}, {self.player}, {anchors}')
@@ -95,7 +96,8 @@ class Board:
     def get_possible_moves(self):
         """ Overwrites list of possible move for the current player """
 
-        new_moves = []
+        poss_moves = []
+        all_anchors = []
         for row in range(len(self.board)):
             for column in range(len(self.board[row])):
                 tile = (row,column)
@@ -103,8 +105,10 @@ class Board:
                     continue
                 anchors = self._find_anchors(tile)
                 if anchors:
-                    new_moves.append([tile,anchors])
-        self.poss_moves[self.player] = new_moves
+                    poss_moves.append(tile)
+                    all_anchors.append(anchors)
+        self.poss_moves[self.player] = zip(poss_moves,all_anchors)
+        return poss_moves
 
     def is_game_over(self):
         """Determins if the game is over. Either because one player does not

@@ -227,3 +227,2724 @@
  [ 0  0  0  0  0  0  0  0]
  [ 0  0  0  0  0  0  0  0]][0m
 [32mmain.py/main/44[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mboard.py/play_move/68[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [-1 -1 -1 -1 -1 -1 -1 -1]
+ [ 0  0  0 -1  1  0  0  0]
+ [-1 -1 -1 -1 -1 -1 -1 -1]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/47[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mboard.py/play_move/68[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 1  1  1  1  1  1  1  1]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 1  1  1  1  1  1  1  1]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/47[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mboard.py/play_move/68[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 1  1  1  1  1  1  1  1]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 1  1  1  1  1  1  1  1]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/47[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mboard.py/play_move/68[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 1  1  1  1  1  1  1  1]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 1  1  1  1  1  1  1  1]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/47[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mboard.py/play_move/70[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 1  1  1  1  1  1  1  1]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 1  1  1  1  1  1  1  1]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/47[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/46[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/46[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/49[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/49[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/49[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/49[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/_find_anchors/29[0m [1mself.board[0m
+[32mboard.py/play_move/62[0m [1mkliknute policko: [np.int64(3), np.int64(2)], hrac na tomto policku:[[ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mboard.py/play_move/71[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: [np.int64(3), np.int64(2)], hrac na tomto policku:[[ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mboard.py/play_move/70[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: [np.int64(3), np.int64(2)], hrac na tomto policku:[[ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mboard.py/play_move/70[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: [np.int64(3), np.int64(2)], hrac na tomto policku:0[0m
+[32mboard.py/play_move/70[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/70[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem shit jako anchor[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/64[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: -1[0m
+[32mboard.py/play_move/71[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/64[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: -1[0m
+[32mboard.py/play_move/71[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/64[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: -1[0m
+[32mboard.py/play_move/71[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(4)), hrac na tomto policku:1[0m
+[32mboard.py/play_move/64[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: -1[0m
+[32mboard.py/play_move/71[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/64[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: -1[0m
+[32mboard.py/play_move/71[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/64[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: -1[0m
+[32mboard.py/play_move/67[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/72[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/64[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: -1[0m
+[32mboard.py/play_move/67[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/72[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/64[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: -1[0m
+[32mboard.py/play_move/67[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/68[0m [1mchci tah pro pozici:(np.int64(3), np.int64(2)) a koukam na tah pro pozici: (2, 3) jeho anchory jsou [[(np.int64(4), np.int64(3))]][0m
+[32mboard.py/play_move/68[0m [1mchci tah pro pozici:(np.int64(3), np.int64(2)) a koukam na tah pro pozici: (3, 2) jeho anchory jsou [[(np.int64(3), np.int64(4))]][0m
+[32mboard.py/play_move/68[0m [1mchci tah pro pozici:(np.int64(3), np.int64(2)) a koukam na tah pro pozici: (4, 5) jeho anchory jsou [[(np.int64(4), np.int64(3))]][0m
+[32mboard.py/play_move/68[0m [1mchci tah pro pozici:(np.int64(3), np.int64(2)) a koukam na tah pro pozici: (5, 4) jeho anchory jsou [[(np.int64(3), np.int64(4))]][0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/68[0m [1mchci tah pro pozici:(np.int64(3), np.int64(2)) a koukam na tah pro pozici: (2, 3) jeho anchory jsou [(np.int64(4), np.int64(3))][0m
+[32mboard.py/play_move/68[0m [1mchci tah pro pozici:(np.int64(3), np.int64(2)) a koukam na tah pro pozici: (3, 2) jeho anchory jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/68[0m [1mchci tah pro pozici:(np.int64(3), np.int64(2)) a koukam na tah pro pozici: (4, 5) jeho anchory jsou [(np.int64(4), np.int64(3))][0m
+[32mboard.py/play_move/68[0m [1mchci tah pro pozici:(np.int64(3), np.int64(2)) a koukam na tah pro pozici: (5, 4) jeho anchory jsou [(np.int64(3), np.int64(4))][0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/68[0m [1mchci tah pro pozici:(np.int64(3), np.int64(2)) a koukam na tah pro pozici: (2, 3) jeho anchory jsou [(np.int64(4), np.int64(3))][0m
+[32mboard.py/play_move/68[0m [1mchci tah pro pozici:(np.int64(3), np.int64(2)) a koukam na tah pro pozici: (3, 2) jeho anchory jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/68[0m [1mchci tah pro pozici:(np.int64(3), np.int64(2)) a koukam na tah pro pozici: (4, 5) jeho anchory jsou [(np.int64(4), np.int64(3))][0m
+[32mboard.py/play_move/68[0m [1mchci tah pro pozici:(np.int64(3), np.int64(2)) a koukam na tah pro pozici: (5, 4) jeho anchory jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/81[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:4,direction:(np.float64(0.0), np.float64(0.5))[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/81[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.float64(0.0), np.float64(1.0))[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/81[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/81[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/81[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/88[0m [1mkonvertoval jsem (np.int64(3), np.int64(3))[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/81[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/88[0m [1mkonvertoval jsem (np.int64(3), np.int64(3))[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/81[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/88[0m [1mkonvertoval jsem (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni None[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/81[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/88[0m [1mkonvertoval jsem (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(3), np.int64(3)), (np.int64(3), np.int64(2))][0m
+[32mmain.py/main/46[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/81[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/88[0m [1mkonvertoval jsem (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(3), np.int64(3)), (np.int64(3), np.int64(2))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(2))[0m
+[32mmain.py/main/46[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/81[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/88[0m [1mkonvertoval jsem (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(3), np.int64(3)), (np.int64(3), np.int64(2))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(2))[0m
+[32mmain.py/main/46[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/81[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/88[0m [1mkonvertoval jsem (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(3), np.int64(3)), (np.int64(3), np.int64(2))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(2))[0m
+[32mmain.py/main/46[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/81[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/88[0m [1mkonvertoval jsem (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(3), np.int64(3)), (np.int64(3), np.int64(2))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(2))[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/81[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/88[0m [1mkonvertoval jsem (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(3), np.int64(3)), (np.int64(3), np.int64(2))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(2))[0m
+[32mmain.py/main/58[0m [1m[[<rect(-42, -42, 90, 90)>, <rect(-42, -43, 90, 90)>]][0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/81[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/88[0m [1mkonvertoval jsem (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(3), np.int64(3)), (np.int64(3), np.int64(2))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(2))[0m
+[32mgame.py/draw_move/89[0m [1mvracim seznam rectu [<rect(-42, -42, 90, 90)>, <rect(-42, -43, 90, 90)>][0m
+[32mmain.py/main/58[0m [1m[[<rect(-42, -42, 90, 90)>, <rect(-42, -43, 90, 90)>]][0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/81[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/88[0m [1mkonvertoval jsem (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(3), np.int64(3)), (np.int64(3), np.int64(2))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(2))[0m
+[32mgame.py/draw_move/89[0m [1mvracim seznam rectu [<rect(-42, -42, 90, 90)>, <rect(-42, -43, 90, 90)>][0m
+[32mmain.py/main/58[0m [1m[<rect(-42, -42, 90, 90)>, <rect(-42, -43, 90, 90)>][0m
+[32mmain.py/main/46[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/81[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/88[0m [1mkonvertoval jsem (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(3), np.int64(3)), (np.int64(3), np.int64(2))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(2))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(305, 305, 90, 90)>, <rect(305, 205, 90, 90)>][0m
+[32mmain.py/main/58[0m [1m[<rect(305, 305, 90, 90)>, <rect(305, 205, 90, 90)>][0m
+[32mmain.py/main/46[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/81[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/88[0m [1mkonvertoval jsem (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(3), np.int64(3)), (np.int64(3), np.int64(2))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(3))[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/81[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/88[0m [1mkonvertoval jsem (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(3), np.int64(3)), (np.int64(3), np.int64(2))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(2))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(305, 305, 90, 90)>, <rect(205, 305, 90, 90)>][0m
+[32mmain.py/main/58[0m [1m[<rect(305, 305, 90, 90)>, <rect(205, 305, 90, 90)>][0m
+[32mmain.py/main/46[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/81[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/88[0m [1mkonvertoval jsem (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(3), np.int64(3)), (np.int64(3), np.int64(2))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(2))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(305, 305, 90, 90)>, <rect(205, 305, 90, 90)>][0m
+[32mmain.py/main/58[0m [1m[<rect(305, 305, 90, 90)>, <rect(205, 305, 90, 90)>][0m
+[32mmain.py/main/46[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(3), np.int64(3)), (np.int64(3), np.int64(2))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(2))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(305, 305, 90, 90)>, <rect(205, 305, 90, 90)>][0m
+[32mmain.py/main/59[0m [1m[<rect(305, 305, 90, 90)>, <rect(205, 305, 90, 90)>][0m
+[32mmain.py/main/46[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(3), np.int64(3)), (np.int64(3), np.int64(2))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(2))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(305, 305, 90, 90)>, <rect(205, 305, 90, 90)>][0m
+[32mmain.py/main/59[0m [1m[<rect(305, 305, 90, 90)>, <rect(205, 305, 90, 90)>][0m
+[32mmain.py/main/52[0m [1m(4, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (2, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (4, 2)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(4), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1  1  1  0  0  0]
+ [ 0  0 -1  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: -1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], [[(2, 4), [(np.int64(4), np.int64(4))]], [(4, 2), [(np.int64(4), np.int64(4))]]]][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(4), np.int64(4))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(4), np.int64(3))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(4), np.int64(3)), (np.int64(4), np.int64(2))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(4), np.int64(3))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(4), np.int64(2))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(305, 405, 90, 90)>, <rect(205, 405, 90, 90)>][0m
+[32mmain.py/main/59[0m [1m[<rect(305, 405, 90, 90)>, <rect(205, 405, 90, 90)>][0m
+[32mmain.py/main/52[0m [1m(5, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(2)) jako anchor pro (5, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(3)) jako anchor pro (5, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(5), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1  1  1  0  0  0]
+ [ 0  0 -1 -1 -1  0  0  0]
+ [ 0  0  1  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(5, 2), [(np.int64(3), np.int64(2))]], [(5, 3), [(np.int64(3), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], [[(2, 4), [(np.int64(4), np.int64(4))]], [(4, 2), [(np.int64(4), np.int64(4))]]]][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(2))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(2), np.int64(0)),distanece:2,direction:(np.int64(1), np.int64(0))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(6), np.int64(2))[0m
+[32mboard.py/play_move/91[0m [31m[1mThere should always be stone between tile and anchor[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(6), np.int64(2)), (np.int64(5), np.int64(2))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(6), np.int64(2))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(5), np.int64(2))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(205, 605, 90, 90)>, <rect(205, 505, 90, 90)>][0m
+[32mmain.py/main/59[0m [1m[<rect(205, 605, 90, 90)>, <rect(205, 505, 90, 90)>][0m
+[32mmain.py/main/52[0m [1m(5, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(2)) jako anchor pro (2, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (2, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(2)) jako anchor pro (6, 2)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(5), np.int64(4)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1  1  1  0  0  0]
+ [ 0  0 -1 -1 -1  0  0  0]
+ [ 0  0  1  0 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: -1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(5, 2), [(np.int64(3), np.int64(2))]], [(5, 3), [(np.int64(3), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], [[(2, 2), [(np.int64(4), np.int64(2))]], [(2, 3), [(np.int64(4), np.int64(3))]], [(2, 4), [(np.int64(4), np.int64(4))]], [(6, 2), [(np.int64(4), np.int64(2))]]]][0m
+[32mboard.py/play_move/72[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mboard.py/play_move/73[0m [1manchori jsou [][0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(5), np.int64(4))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(5), np.int64(4))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(405, 505, 90, 90)>][0m
+[32mmain.py/main/59[0m [1m[<rect(405, 505, 90, 90)>][0m
+[32mmain.py/main/52[0m [1m(5, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(3)) jako anchor pro (5, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (6, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(5), np.int64(3)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1  1  1  0  0  0]
+ [ 0  0 -1 -1 -1  0  0  0]
+ [ 0  0  1  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(5, 3), [(np.int64(3), np.int64(3))]], [(6, 4), [(np.int64(3), np.int64(4))]]], [[(2, 2), [(np.int64(4), np.int64(2))]], [(2, 3), [(np.int64(4), np.int64(3))]], [(2, 4), [(np.int64(4), np.int64(4))]], [(6, 2), [(np.int64(4), np.int64(2))]]]][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(3))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(2), np.int64(0)),distanece:2,direction:(np.int64(1), np.int64(0))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(6), np.int64(3))[0m
+[32mboard.py/play_move/91[0m [31m[1mThere should always be stone between tile and anchor[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(6), np.int64(3)), (np.int64(5), np.int64(3))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(6), np.int64(3))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(5), np.int64(3))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(305, 605, 90, 90)>, <rect(305, 505, 90, 90)>][0m
+[32mmain.py/main/59[0m [1m[<rect(305, 605, 90, 90)>, <rect(305, 505, 90, 90)>][0m
+[32mmain.py/main/52[0m [1m(2, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(2)) jako anchor pro (2, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (2, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(5), np.int64(4)) jako anchor pro (5, 1)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(2)) jako anchor pro (6, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (6, 3)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(2), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0 -1  0  0  0  0  0]
+ [ 0  0  1  1  1  0  0  0]
+ [ 0  0 -1 -1 -1  0  0  0]
+ [ 0  0  1  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: -1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(5, 3), [(np.int64(3), np.int64(3))]], [(6, 4), [(np.int64(3), np.int64(4))]]], [[(2, 2), [(np.int64(4), np.int64(2))]], [(2, 3), [(np.int64(4), np.int64(3))]], [(2, 4), [(np.int64(4), np.int64(4))]], [(5, 1), [(np.int64(5), np.int64(4))]], [(6, 2), [(np.int64(4), np.int64(2))]], [(6, 3), [(np.int64(4), np.int64(3))]]]][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(4), np.int64(2))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(2), np.int64(0)),distanece:2,direction:(np.int64(1), np.int64(0))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(3), np.int64(2))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(3), np.int64(2)), (np.int64(2), np.int64(2))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(2))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(2), np.int64(2))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(205, 305, 90, 90)>, <rect(205, 205, 90, 90)>][0m
+[32mmain.py/main/59[0m [1m[<rect(205, 305, 90, 90)>, <rect(205, 205, 90, 90)>][0m
+[32mmain.py/main/52[0m [1m(3, 1)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(5), np.int64(2)) jako anchor pro (1, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(3)) jako anchor pro (3, 1)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(5), np.int64(3)) jako anchor pro (5, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (6, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(1)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0 -1  0  0  0  0  0]
+ [ 0  1 -1  1  1  0  0  0]
+ [ 0  0 -1 -1 -1  0  0  0]
+ [ 0  0  1  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(1, 2), [(np.int64(5), np.int64(2))]], [(3, 1), [(np.int64(3), np.int64(3))]], [(5, 5), [(np.int64(5), np.int64(3))]], [(6, 4), [(np.int64(3), np.int64(4))]]], [[(2, 2), [(np.int64(4), np.int64(2))]], [(2, 3), [(np.int64(4), np.int64(3))]], [(2, 4), [(np.int64(4), np.int64(4))]], [(5, 1), [(np.int64(5), np.int64(4))]], [(6, 2), [(np.int64(4), np.int64(2))]], [(6, 3), [(np.int64(4), np.int64(3))]]]][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(3))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(3), np.int64(2))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(3), np.int64(2)), (np.int64(3), np.int64(1))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(2))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(1))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(205, 305, 90, 90)>, <rect(105, 305, 90, 90)>][0m
+[32mmain.py/main/59[0m [1m[<rect(205, 305, 90, 90)>, <rect(105, 305, 90, 90)>][0m
+[32mmain.py/main/52[0m [1m(7, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (2, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(5), np.int64(4)) jako anchor pro (5, 1)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(2)) jako anchor pro (6, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (6, 3)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(7), np.int64(3)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0 -1  0  0  0  0  0]
+ [ 0  1  1  1  1  0  0  0]
+ [ 0  0 -1 -1 -1  0  0  0]
+ [ 0  0  1  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  0  0  0  0]], aktualni hrac na tahu: -1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(1, 2), [(np.int64(5), np.int64(2))]], [(3, 1), [(np.int64(3), np.int64(3))]], [(5, 5), [(np.int64(5), np.int64(3))]], [(6, 4), [(np.int64(3), np.int64(4))]]], [[(2, 3), [(np.int64(4), np.int64(3))]], [(2, 4), [(np.int64(4), np.int64(4))]], [(5, 1), [(np.int64(5), np.int64(4))]], [(6, 2), [(np.int64(4), np.int64(2))]], [(6, 3), [(np.int64(4), np.int64(3))]]]][0m
+[32mboard.py/play_move/72[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mboard.py/play_move/73[0m [1manchori jsou [][0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(7), np.int64(3))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(7), np.int64(3))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(305, 705, 90, 90)>][0m
+[32mmain.py/main/59[0m [1m[<rect(305, 705, 90, 90)>][0m
+[32mmain.py/main/52[0m [1m(5, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(2)) jako anchor pro (1, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(5), np.int64(3)) jako anchor pro (5, 5)[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(3), np.int64(3)), (np.int64(3), np.int64(2))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(3))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(2))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(305, 305, 90, 90)>, <rect(205, 305, 90, 90)>][0m
+[32mmain.py/main/59[0m [1m[<rect(305, 305, 90, 90)>, <rect(205, 305, 90, 90)>][0m
+[32mmain.py/main/52[0m [1m(4, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (2, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (4, 2)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(4), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1  1  1  0  0  0]
+ [ 0  0 -1  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: -1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], [[(2, 4), [(np.int64(4), np.int64(4))]], [(4, 2), [(np.int64(4), np.int64(4))]]]][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(4), np.int64(4))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(4), np.int64(3))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(4), np.int64(3)), (np.int64(4), np.int64(2))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(4), np.int64(3))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(4), np.int64(2))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(305, 405, 90, 90)>, <rect(205, 405, 90, 90)>][0m
+[32mmain.py/main/59[0m [1m[<rect(305, 405, 90, 90)>, <rect(205, 405, 90, 90)>][0m
+[32mmain.py/main/52[0m [1m(5, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(2)) jako anchor pro (5, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(3)) jako anchor pro (5, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(5), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1  1  1  0  0  0]
+ [ 0  0 -1 -1 -1  0  0  0]
+ [ 0  0  1  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(5, 2), [(np.int64(3), np.int64(2))]], [(5, 3), [(np.int64(3), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], [[(2, 4), [(np.int64(4), np.int64(4))]], [(4, 2), [(np.int64(4), np.int64(4))]]]][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(2))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(2), np.int64(0)),distanece:2,direction:(np.int64(1), np.int64(0))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(6), np.int64(2))[0m
+[32mboard.py/play_move/91[0m [31m[1mThere should always be stone between tile and anchor[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(6), np.int64(2)), (np.int64(5), np.int64(2))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(6), np.int64(2))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(5), np.int64(2))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(205, 605, 90, 90)>, <rect(205, 505, 90, 90)>][0m
+[32mmain.py/main/59[0m [1m[<rect(205, 605, 90, 90)>, <rect(205, 505, 90, 90)>][0m
+[32mmain.py/main/46[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(5, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(5), np.int64(4)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(2), np.int64(0)),distanece:2,direction:(np.int64(1), np.int64(0))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(6), np.int64(4))[0m
+[32mboard.py/play_move/91[0m [31m[1mThere should always be stone between tile and anchor[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(6), np.int64(4)), (np.int64(5), np.int64(4))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(6), np.int64(4))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(5), np.int64(4))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(405, 605, 90, 90)>, <rect(405, 505, 90, 90)>][0m
+[32mmain.py/main/59[0m [1m[<rect(405, 605, 90, 90)>, <rect(405, 505, 90, 90)>][0m
+[32mmain.py/main/20[0m [1mPygame setup[0m
+[32mmain.py/main/29[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/33[0m [1mlogic setup[0m
+[32mmain.py/main/35[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/52[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(0), np.int64(-2)),distanece:0,direction:(np.int64(0), np.int64(0))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(3), np.int64(2))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(2))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(205, 305, 90, 90)>][0m
+[32mmain.py/main/59[0m [1m[<rect(205, 305, 90, 90)>][0m
+[32mmain.py/main/52[0m [1m(5, 1)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (2, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(3)) jako anchor pro (3, 1)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(3)) jako anchor pro (3, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (4, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(3)) jako anchor pro (5, 3)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(5), np.int64(1)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0 -1  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: -1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], [[(2, 4), [(np.int64(4), np.int64(4))]], [(3, 1), [(np.int64(3), np.int64(3))]], [(3, 5), [(np.int64(3), np.int64(3))]], [(4, 2), [(np.int64(4), np.int64(4))]], [(5, 3), [(np.int64(3), np.int64(3))]]]][0m
+[32mboard.py/play_move/72[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mboard.py/play_move/73[0m [1manchori jsou [][0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(5), np.int64(1))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(5), np.int64(1))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(105, 505, 90, 90)>][0m
+[32mmain.py/main/59[0m [1m[<rect(105, 505, 90, 90)>][0m
+[32mmain.py/main/46[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/21[0m [1mPygame setup[0m
+[32mmain.py/main/30[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/34[0m [1mlogic setup[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/47[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/21[0m [1mPygame setup[0m
+[32mmain.py/main/30[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/34[0m [1mlogic setup[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/47[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/21[0m [1mPygame setup[0m
+[32mmain.py/main/30[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/34[0m [1mlogic setup[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/47[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/21[0m [1mPygame setup[0m
+[32mmain.py/main/30[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/34[0m [1mlogic setup[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/47[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/21[0m [1mPygame setup[0m
+[32mmain.py/main/30[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/34[0m [1mlogic setup[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/47[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/21[0m [1mPygame setup[0m
+[32mmain.py/main/30[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/34[0m [1mlogic setup[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/47[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/21[0m [1mPygame setup[0m
+[32mmain.py/main/30[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/34[0m [1mlogic setup[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/47[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/21[0m [1mPygame setup[0m
+[32mmain.py/main/30[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/34[0m [1mlogic setup[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/47[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/21[0m [1mPygame setup[0m
+[32mmain.py/main/30[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/34[0m [1mlogic setup[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/47[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/21[0m [1mPygame setup[0m
+[32mmain.py/main/30[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/34[0m [1mlogic setup[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/47[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/21[0m [1mPygame setup[0m
+[32mmain.py/main/30[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/34[0m [1mlogic setup[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/47[0m [1mQuit signal received. Exiting...[0m
+[32mmain.py/main/21[0m [1mPygame setup[0m
+[32mmain.py/main/30[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/34[0m [1mlogic setup[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/21[0m [1mPygame setup[0m
+[32mmain.py/main/30[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/34[0m [1mlogic setup[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/53[0m [1m(5, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(5), np.int64(4)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(2), np.int64(0)),distanece:2,direction:(np.int64(1), np.int64(0))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(6), np.int64(4))[0m
+[32mboard.py/play_move/91[0m [31m[1mThere should always be stone between tile and anchor[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(6), np.int64(4)), (np.int64(5), np.int64(4))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(6), np.int64(4))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(5), np.int64(4))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(405, 605, 90, 90)>, <rect(405, 505, 90, 90)>][0m
+[32mmain.py/main/60[0m [1m[<rect(405, 605, 90, 90)>, <rect(405, 505, 90, 90)>][0m
+[32mmain.py/main/53[0m [1m(4, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (2, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(3)) jako anchor pro (3, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (4, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(3)) jako anchor pro (5, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (6, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(4), np.int64(3)), hrac na tomto policku:1[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0 -1 -1  0  0  0]
+ [ 0  0  0  0  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: -1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], [[(2, 4), [(np.int64(4), np.int64(4))]], [(3, 5), [(np.int64(3), np.int64(3))]], [(4, 2), [(np.int64(4), np.int64(4))]], [(5, 3), [(np.int64(3), np.int64(3))]], [(6, 4), [(np.int64(4), np.int64(4))]]]][0m
+[32mboard.py/play_move/72[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mboard.py/play_move/73[0m [1manchori jsou [][0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(4), np.int64(3))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(4), np.int64(3))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(305, 405, 90, 90)>][0m
+[32mmain.py/main/60[0m [1m[<rect(305, 405, 90, 90)>][0m
+[32mmain.py/main/21[0m [1mPygame setup[0m
+[32mmain.py/main/30[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/34[0m [1mlogic setup[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/53[0m [1m(5, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(5), np.int64(4)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(2), np.int64(0)),distanece:2,direction:(np.int64(1), np.int64(0))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(6), np.int64(4))[0m
+[32mboard.py/play_move/91[0m [31m[1mThere should always be stone between tile and anchor[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(6), np.int64(4)), (np.int64(5), np.int64(4))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(6), np.int64(4))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(5), np.int64(4))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(405, 605, 90, 90)>, <rect(405, 505, 90, 90)>][0m
+[32mmain.py/main/60[0m [1m[<rect(405, 605, 90, 90)>, <rect(405, 505, 90, 90)>][0m
+[32mmain.py/main/53[0m [1m(3, 0)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (2, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(3)) jako anchor pro (3, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (4, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(3)) jako anchor pro (5, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (6, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(0)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [-1  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: -1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], [[(2, 4), [(np.int64(4), np.int64(4))]], [(3, 5), [(np.int64(3), np.int64(3))]], [(4, 2), [(np.int64(4), np.int64(4))]], [(5, 3), [(np.int64(3), np.int64(3))]], [(6, 4), [(np.int64(4), np.int64(4))]]]][0m
+[32mboard.py/play_move/72[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mboard.py/play_move/73[0m [1manchori jsou [][0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(3), np.int64(0))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(0))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(5, 305, 90, 90)>][0m
+[32mmain.py/main/60[0m [1m[<rect(5, 305, 90, 90)>][0m
+[32mmain.py/main/53[0m [1m(6, 1)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(6), np.int64(1)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [-1  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  1  0  0  0]
+ [ 0  1  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]]], [[(2, 4), [(np.int64(4), np.int64(4))]], [(3, 5), [(np.int64(3), np.int64(3))]], [(4, 2), [(np.int64(4), np.int64(4))]], [(5, 3), [(np.int64(3), np.int64(3))]], [(6, 4), [(np.int64(4), np.int64(4))]]]][0m
+[32mboard.py/play_move/72[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mboard.py/play_move/73[0m [1manchori jsou [][0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(6), np.int64(1))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(6), np.int64(1))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(105, 605, 90, 90)>][0m
+[32mmain.py/main/60[0m [1m[<rect(105, 605, 90, 90)>][0m
+[32mmain.py/main/53[0m [1m(3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (2, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(3)) jako anchor pro (3, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (4, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(3)) jako anchor pro (5, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (6, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(3), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [-1  0 -1 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  1  0  0  0]
+ [ 0  1  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: -1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]]], [[(2, 4), [(np.int64(4), np.int64(4))]], [(3, 5), [(np.int64(3), np.int64(3))]], [(4, 2), [(np.int64(4), np.int64(4))]], [(5, 3), [(np.int64(3), np.int64(3))]], [(6, 4), [(np.int64(4), np.int64(4))]]]][0m
+[32mboard.py/play_move/72[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mboard.py/play_move/73[0m [1manchori jsou [][0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(3), np.int64(2))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(3), np.int64(2))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(205, 305, 90, 90)>][0m
+[32mmain.py/main/60[0m [1m[<rect(205, 305, 90, 90)>][0m
+[32mmain.py/main/21[0m [1mPygame setup[0m
+[32mmain.py/main/30[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/34[0m [1mlogic setup[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/53[0m [1m(5, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(5), np.int64(4)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mmain.py/main/21[0m [1mPygame setup[0m
+[32mmain.py/main/30[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/34[0m [1mlogic setup[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/53[0m [1m(5, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(5), np.int64(4)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(2), np.int64(0)),distanece:2,direction:(np.int64(1), np.int64(0))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(6), np.int64(4))[0m
+[32mboard.py/play_move/91[0m [31m[1mThere should always be stone between tile and anchor[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(6), np.int64(4)), (np.int64(5), np.int64(4))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(6), np.int64(4))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(5), np.int64(4))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(405, 605, 90, 90)>, <rect(405, 505, 90, 90)>][0m
+[32mmain.py/main/60[0m [1m[<rect(405, 605, 90, 90)>, <rect(405, 505, 90, 90)>][0m
+[32mmain.py/main/21[0m [1mPygame setup[0m
+[32mmain.py/main/30[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/34[0m [1mlogic setup[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/53[0m [1m(5, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(5), np.int64(4)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(-2), np.int64(0)),distanece:2,direction:(np.int64(-1), np.int64(0))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(4), np.int64(4))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(4), np.int64(4)), (np.int64(5), np.int64(4))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(4), np.int64(4))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(5), np.int64(4))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(405, 405, 90, 90)>, <rect(405, 505, 90, 90)>][0m
+[32mmain.py/main/60[0m [1m[<rect(405, 405, 90, 90)>, <rect(405, 505, 90, 90)>][0m
+[32mmain.py/main/53[0m [1m(5, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(3)) jako anchor pro (3, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(3)) jako anchor pro (5, 3)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(5), np.int64(3)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1  1  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: -1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], [[(3, 5), [(np.int64(3), np.int64(3))]], [(5, 3), [(np.int64(3), np.int64(3))]]]][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(3))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(-2), np.int64(0)),distanece:2,direction:(np.int64(-1), np.int64(0))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(4), np.int64(3))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(4), np.int64(3)), (np.int64(5), np.int64(3))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(4), np.int64(3))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(5), np.int64(3))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(305, 405, 90, 90)>, <rect(305, 505, 90, 90)>][0m
+[32mmain.py/main/60[0m [1m[<rect(305, 405, 90, 90)>, <rect(305, 505, 90, 90)>][0m
+[32mmain.py/main/53[0m [1m(4, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (4, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(5), np.int64(4)) jako anchor pro (5, 2)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(4), np.int64(2)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  1 -1  1  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(3, 2), [(np.int64(3), np.int64(4))]], [(4, 2), [(np.int64(4), np.int64(4))]], [(5, 2), [(np.int64(5), np.int64(4))]]], [[(3, 5), [(np.int64(3), np.int64(3))]], [(5, 3), [(np.int64(3), np.int64(3))]]]][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(4), np.int64(4))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(4), np.int64(3))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(4), np.int64(3)), (np.int64(4), np.int64(2))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(4), np.int64(3))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(4), np.int64(2))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(305, 405, 90, 90)>, <rect(205, 405, 90, 90)>][0m
+[32mmain.py/main/60[0m [1m[<rect(305, 405, 90, 90)>, <rect(205, 405, 90, 90)>][0m
+[32mmain.py/main/53[0m [1m(5, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(3)) jako anchor pro (3, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(5), np.int64(3)) jako anchor pro (5, 5)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(5), np.int64(5)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  1  1  1  0  0  0]
+ [ 0  0  0 -1  1 -1  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: -1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(3, 2), [(np.int64(3), np.int64(4))]], [(4, 2), [(np.int64(4), np.int64(4))]], [(5, 2), [(np.int64(5), np.int64(4))]]], [[(3, 5), [(np.int64(3), np.int64(3))]], [(5, 5), [(np.int64(5), np.int64(3))]]]][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(5), np.int64(3))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(0), np.int64(-2)),distanece:2,direction:(np.int64(0), np.int64(-1))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(5), np.int64(4))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(5), np.int64(4)), (np.int64(5), np.int64(5))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(5), np.int64(4))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(5), np.int64(5))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(405, 505, 90, 90)>, <rect(505, 505, 90, 90)>][0m
+[32mmain.py/main/60[0m [1m[<rect(405, 505, 90, 90)>, <rect(505, 505, 90, 90)>][0m
+[32mmain.py/main/21[0m [1mPygame setup[0m
+[32mmain.py/main/30[0m [1mscreen setup[0m
+[32mboard.py/setup_board/25[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/34[0m [1mlogic setup[0m
+[32mmain.py/main/36[0m [1m[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]][0m
+[32mmain.py/main/53[0m [1m(5, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(5), np.int64(4)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], []][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(-2), np.int64(0)),distanece:2,direction:(np.int64(-1), np.int64(0))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(4), np.int64(4))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(4), np.int64(4)), (np.int64(5), np.int64(4))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(4), np.int64(4))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(5), np.int64(4))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(405, 405, 90, 90)>, <rect(405, 505, 90, 90)>][0m
+[32mmain.py/main/60[0m [1m[<rect(405, 405, 90, 90)>, <rect(405, 505, 90, 90)>][0m
+[32mmain.py/main/53[0m [1m(5, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(3)) jako anchor pro (3, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(3)) jako anchor pro (5, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(3)) jako anchor pro (5, 5)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(5), np.int64(5)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1  1  0  0  0]
+ [ 0  0  0  0  1 -1  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: -1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 4), [(np.int64(3), np.int64(4))]]], [[(3, 5), [(np.int64(3), np.int64(3))]], [(5, 3), [(np.int64(3), np.int64(3))]], [(5, 5), [(np.int64(3), np.int64(3))]]]][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(3))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(-2), np.int64(-2)),distanece:2,direction:(np.int64(-1), np.int64(-1))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(4), np.int64(4))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(4), np.int64(4)), (np.int64(5), np.int64(5))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(4), np.int64(4))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(5), np.int64(5))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(405, 405, 90, 90)>, <rect(505, 505, 90, 90)>][0m
+[32mmain.py/main/60[0m [1m[<rect(405, 405, 90, 90)>, <rect(505, 505, 90, 90)>][0m
+[32mmain.py/main/53[0m [1m(1, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(5), np.int64(4)) jako anchor pro (5, 6)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(1), np.int64(4)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0  0  1 -1  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 6), [(np.int64(5), np.int64(4))]]], [[(3, 5), [(np.int64(3), np.int64(3))]], [(5, 3), [(np.int64(3), np.int64(3))]], [(5, 5), [(np.int64(3), np.int64(3))]]]][0m
+[32mboard.py/play_move/72[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mboard.py/play_move/73[0m [1manchori jsou [][0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(1), np.int64(4))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(1), np.int64(4))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(405, 105, 90, 90)>][0m
+[32mmain.py/main/60[0m [1m[<rect(405, 105, 90, 90)>][0m
+[32mmain.py/main/53[0m [1m(5, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (2, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(3)) jako anchor pro (3, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (4, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(5), np.int64(5)) jako anchor pro (5, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(3)) jako anchor pro (5, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (6, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(5), np.int64(3)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0  1 -1  0  0  0]
+ [ 0  0  0 -1  1 -1  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: -1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(2, 3), [(np.int64(4), np.int64(3))]], [(3, 2), [(np.int64(3), np.int64(4))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(5, 6), [(np.int64(5), np.int64(4))]]], [[(2, 4), [(np.int64(4), np.int64(4))]], [(3, 5), [(np.int64(3), np.int64(3))]], [(4, 2), [(np.int64(4), np.int64(4))]], [(5, 3), [(np.int64(5), np.int64(5)), (np.int64(3), np.int64(3))]], [(6, 4), [(np.int64(4), np.int64(4))]]]][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(5), np.int64(5)), (np.int64(3), np.int64(3))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(0), np.int64(2)),distanece:2,direction:(np.int64(0), np.int64(1))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(5), np.int64(4))[0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(-2), np.int64(0)),distanece:2,direction:(np.int64(-1), np.int64(0))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(4), np.int64(3))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(5), np.int64(4)), (np.int64(4), np.int64(3)), (np.int64(5), np.int64(3))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(5), np.int64(4))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(4), np.int64(3))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(5), np.int64(3))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(405, 505, 90, 90)>, <rect(305, 405, 90, 90)>, <rect(305, 505, 90, 90)>][0m
+[32mmain.py/main/60[0m [1m[<rect(405, 505, 90, 90)>, <rect(305, 405, 90, 90)>, <rect(305, 505, 90, 90)>][0m
+[32mmain.py/main/53[0m [1m(6, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (6, 4)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(6), np.int64(4)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0 -1 -1  0  0  0]
+ [ 0  0  0 -1 -1 -1  0  0]
+ [ 0  0  0  0  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]], aktualni hrac na tahu: 1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(3, 2), [(np.int64(3), np.int64(4))]], [(5, 2), [(np.int64(3), np.int64(4))]], [(6, 4), [(np.int64(3), np.int64(4))]]], [[(2, 4), [(np.int64(4), np.int64(4))]], [(3, 5), [(np.int64(3), np.int64(3))]], [(4, 2), [(np.int64(4), np.int64(4))]], [(5, 3), [(np.int64(5), np.int64(5)), (np.int64(3), np.int64(3))]], [(6, 4), [(np.int64(4), np.int64(4))]]]][0m
+[32mboard.py/play_move/73[0m [1manchori jsou [(np.int64(3), np.int64(4))][0m
+[32mboard.py/play_move/80[0m [1mdifference:(np.int64(-3), np.int64(0)),distanece:3,direction:(np.int64(-1), np.int64(0))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(5), np.int64(4))[0m
+[32mboard.py/play_move/87[0m [1mkonvertoval jsem (np.int64(4), np.int64(4))[0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(5), np.int64(4)), (np.int64(4), np.int64(4)), (np.int64(6), np.int64(4))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(5), np.int64(4))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(4), np.int64(4))[0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(6), np.int64(4))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(405, 505, 90, 90)>, <rect(405, 405, 90, 90)>, <rect(405, 605, 90, 90)>][0m
+[32mmain.py/main/60[0m [1m[<rect(405, 505, 90, 90)>, <rect(405, 405, 90, 90)>, <rect(405, 605, 90, 90)>][0m
+[32mmain.py/main/53[0m [1m(7, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (2, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(3)) jako anchor pro (3, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(5), np.int64(3)) jako anchor pro (3, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (4, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(3)) jako anchor pro (6, 5)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(5), np.int64(5)) jako anchor pro (7, 3)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(5), np.int64(3)) jako anchor pro (7, 5)[0m
+[32mboard.py/play_move/61[0m [1mkliknute policko: (np.int64(7), np.int64(4)), hrac na tomto policku:0[0m
+[32mboard.py/play_move/63[0m [1mpole[[ 0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  1  0  0  0]
+ [ 0  0  0  0  0  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0 -1  1  0  0  0]
+ [ 0  0  0 -1  1 -1  0  0]
+ [ 0  0  0  0  1  0  0  0]
+ [ 0  0  0  0 -1  0  0  0]], aktualni hrac na tahu: -1[0m
+[32mboard.py/play_move/66[0m [1mmozne tahy: [None, [[(3, 2), [(np.int64(3), np.int64(4))]], [(5, 2), [(np.int64(3), np.int64(4))]], [(6, 4), [(np.int64(3), np.int64(4))]]], [[(2, 5), [(np.int64(4), np.int64(3))]], [(3, 5), [(np.int64(3), np.int64(3)), (np.int64(5), np.int64(3))]], [(4, 5), [(np.int64(4), np.int64(3))]], [(6, 5), [(np.int64(4), np.int64(3))]], [(7, 3), [(np.int64(5), np.int64(5))]], [(7, 5), [(np.int64(5), np.int64(3))]]]][0m
+[32mboard.py/play_move/72[0m [1mAlegedly possible tile without anchors, wtf[0m
+[32mboard.py/play_move/73[0m [1manchori jsou [][0m
+[32mgame.py/draw_move/79[0m [1mdostal jsem na nakresleni [(np.int64(7), np.int64(4))][0m
+[32mgame.py/draw_move/82[0m [1mmel bych kreslit (np.int64(7), np.int64(4))[0m
+[32mgame.py/draw_move/90[0m [1mvracim seznam rectu [<rect(405, 705, 90, 90)>][0m
+[32mmain.py/main/60[0m [1m[<rect(405, 705, 90, 90)>][0m
+[32mmain.py/main/53[0m [1m(5, 6)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(-2), np.int64(4)) jako anchor pro (0, 4)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (2, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(5), np.int64(4)) jako anchor pro (3, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (4, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(6), np.int64(4)) jako anchor pro (4, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(6), np.int64(4)) jako anchor pro (4, 6)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(5), np.int64(4)) jako anchor pro (5, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(3), np.int64(4)) jako anchor pro (5, 2)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(5), np.int64(4)) jako anchor pro (5, 6)[0m
+[32mboard.py/_find_anchors/48[0m [1mpridal jsem pole (np.int64(4), np.int64(4)) jako anchor pro (6, 2)[0m
