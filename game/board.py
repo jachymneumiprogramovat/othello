@@ -12,7 +12,8 @@ class Board:
         self.white_stones = []
         self.black_stones = []
 
-        self.poss_moves = [None,[],[]]
+        self.poss_moves = [None, [], []] #na indexu hrace je seznam moznych tahu
+        self.poss_anchors = [None, [], []]
 
     def setup_board(self):
         self.board[3][3]=-1
@@ -64,11 +65,13 @@ class Board:
         logger.info(f'pole{self.board}, aktualni hrac na tahu: {self.player}')
         # converting stones
         anchors = []
-        logger.info(f'mozne tahy: {self.poss_moves}')
-        for poss_move in self.poss_moves[self.player]:
+        logger.info(f'mozne tahy: {self.poss_moves}, jejich anchori: {self.poss_anchors}')
+        # for poss_move in self.poss_moves[self.player]:
             # logger.info(f'chci tah pro pozici:{tile} a koukam na tah pro pozici: {poss_move[0]} jeho anchory jsou {poss_move[1:][0]}')
-            if poss_move[0]==tile:
-                anchors = poss_move[1:][0]
+        #    if poss_move[0]==tile:
+        #        anchors = poss_move[1:][0]
+        anchor_index = self.poss_moves[self.player].index(tile)
+        anchors = self.poss_anchors[self.player][anchor_index]
         if not anchors:
             logger.info('Alegedly possible tile without anchors, wtf')
         logger.info(f'anchori jsou {anchors}')
@@ -107,7 +110,8 @@ class Board:
                 if anchors:
                     poss_moves.append(tile)
                     all_anchors.append(anchors)
-        self.poss_moves[self.player] = zip(poss_moves,all_anchors)
+        self.poss_moves[self.player] = poss_moves
+        self.poss_anchors[self.player] = all_anchors
         return poss_moves
 
     def is_game_over(self):

@@ -13,9 +13,6 @@ class Game:
         self.cell_width = self.width // 8
         self.cell_height = self.height // 8
 
-        # self.white_stones = []
-        # self.black_stones = []
-
     def _draw_grid(self):
         """Draws lines over a background"""
         background = pg.Surface(self.screen.get_size())
@@ -38,14 +35,6 @@ class Game:
 
         stone.move_to(target[0],target[1])
         self.screen.blit(stone.image,stone.rect)
-
-        # asi nepotrebuju color_stones ale zatim to tu necham
-        # budou jen v Board a ne tady 
-        # if color==WHITE_COLOR:
-        #     self.white_stones.append(stone)
-        # elif color==BLACK_COLOR:
-        #     self.black_stones.append(stone)
-
 
         return stone.rect
 
@@ -72,14 +61,12 @@ class Game:
         self._draw_grid()
         self._draw_initial_stones()
 
-
-    def draw_move(self,squares:list[tuple],color:tuple)->list:
-        """Draw all the necesary squares to make a move happen. Returns list of
-        affected rects."""
+    def draw_squares(self,squares:list[tuple],color:tuple)->list:
+        """Draw all the squares provided with color. Returns list of affected
+        rects."""
         logger.info(f'dostal jsem na nakresleni {squares}')
         affected_rects = []
         for tile in squares:
-            logger.info(f'mel bych kreslit {tile}')
             coordinates = tuple(reversed([(x+0.5)*self.cell_height for x in tile]))
             affected_rects.append(
                 self._draw_stone(
@@ -89,21 +76,3 @@ class Game:
                 )
         logger.info(f'vracim seznam rectu {affected_rects}')
         return affected_rects
-
-    def highlite_moves(self,squares:list)->list:
-        """ Draws a highlite stone on all the possible moves """
-
-        affected_rects = []
-        for target in squares:
-            affected_rects.append(
-                self._draw_stone(
-                    target=target,
-                    color=(*HIGHLITE_COLOR,128)
-                    )
-                )
-
-        return affected_rects
-
-
-
-

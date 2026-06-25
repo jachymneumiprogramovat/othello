@@ -37,6 +37,8 @@ def main():
 
 
     poss_moves = board.get_possible_moves()
+    pg.display.update(game.draw_squares(poss_moves,HIGHLITE_COLOR))
+    logger.info(f'poss_moves')
     while running:
         clock.tick(TIKS)
         rect_to_change = []
@@ -50,25 +52,33 @@ def main():
             if event.type == pg.MOUSEBUTTONDOWN:
                 logger.debug("Mouse click signal received.")
                 tile = tuple(np.array(event.pos)//100)
-                logger.info(str(tuple(int(x) for x in reversed(tile))))
+                tile = (tile[1],tile[0])
+                logger.info(str(tuple(int(x) for x in tile)))
                 
                 poss_moves = board.poss_moves[board.player]
-                # check if played move is valid
-                # prepsat to tak aby board mel dve promene poss_moves a
-                # anchors_to_moves abych si nemusel vytahovat vzdycky tu prvni
-                # slozku jak kokot ale zaroven mel nekde i ty anchory ulozene
-                # asi bych to provazal jen indexama ale mozna bude prijemnejsi
-                # z toho udelat slovnik idk to se mi nechce moc.
                 logger.info(f'{tile},{[x for x in poss_moves]}')
+                
                 if not tile in poss_moves:
                     continue
-                to_change = board.play_move(reversed(tile))
+
+                # play the move 
+                to_change = board.play_move(tile)
                 curr_color = WHITE_COLOR if board.player ==-1 else BLACK_COLOR
-                rect_to_change=game.draw_move(to_change,curr_color)
+                rect_to_change=game.draw_squares(to_change,curr_color)
+
+                #check for end of the game
+                if board.is_game_over():
+                    winner = board.determine_winner()
+                    logger.info(f'game won by player {winner}')
+                    break
+
+                #prepare board for next turn
                 board.player *=-1
                 next_poss_moves = board.get_possible_moves()
-                
-                rect_to_change.append(game.highlite_moves(next_poss_moves))
+
+                poss_moves.remove(tile)
+                rect_to_change+=game.draw_squares(poss_moves, TILE_COLOR)
+                rect_to_change+=game.draw_squares(next_poss_moves,HIGHLITE_COLOR)
 
                 logger.info(rect_to_change)
         pg.display.update(rect_to_change)
