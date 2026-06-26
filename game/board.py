@@ -131,7 +131,7 @@ class Board:
         """Checks the number of stones left and return the number of winning
         player"""
 
-        white_won = len(self.stones[-1])>len(self.stones[1])
+        white_won = self.stones[-1]>self.stones[1]
         if white_won:
             return -1
         return 1
