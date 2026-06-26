@@ -42,6 +42,5 @@ plt.plot(range(len(white_poss_moves)),white_poss_moves,color='blue')
 print(white_stones)
 plt.plot(range(len(white_stones[::2])),white_stones[::2],color='red')
 
-
 #plt.plot(range(len(number_poss_moves)),number_poss_moves)
 plt.show()
