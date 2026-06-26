@@ -9,9 +9,7 @@ class Board:
         self.player = 1
         self.dirs = [(1,0),(0,1),(-1,0),(0,-1),(1,1),(1,-1),(-1,-1),(-1,1)]
 
-        self.white_stones = []
-        self.black_stones = []
-
+        self.stones = [None, 0,0]
         self.poss_moves = [None, [], []] #na indexu hrace je seznam moznych tahu
         self.poss_anchors = [None, [], []]
 
@@ -62,6 +60,7 @@ class Board:
         tile = tuple(tile)
         logger.info(f'kliknute policko: {tile}, hrac na tomto policku:{self.board[tuple(tile)]}')
         self.board[tile] = self.player
+        self.stones[self.player] +=1
         logger.info(f'pole{self.board}, aktualni hrac na tahu: {self.player}')
         # converting stones
         anchors = []
@@ -90,6 +89,8 @@ class Board:
                 converted.append(looking_at)
                 logger.info(f'konvertoval jsem {looking_at}')
                 self.board[looking_at] *= -1
+                self.stones[self.player]+=1
+                self.stones[-self.player]-=1
 
                 if self.board[looking_at] == 0:
                     logger.error('There should always be stone between tile and anchor')
