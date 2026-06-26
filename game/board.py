@@ -9,21 +9,19 @@ class Board:
         self.player = 1
         self.dirs = [(1,0),(0,1),(-1,0),(0,-1),(1,1),(1,-1),(-1,-1),(-1,1)]
 
-        self.white_stones = []
-        self.black_stones = []
-
+        self.stones = [None, 0,0]
         self.poss_moves = [None, [], []] #na indexu hrace je seznam moznych tahu
         self.poss_anchors = [None, [], []]
 
     def setup_board(self):
         self.board[3][3]=-1
         self.board[4][4]=-1
-        self.white_stones.extend([(3,3),(4,4)])
+        self.stones[-1] +=2
 
         self.board[3][4]=1
         self.board[4][3]=1
-        self.black_stones.extend([(3,4),(4,3)])
-        logger.info(f'{self.board}',f'{self.white_stones,self.black_stones}')
+        self.stones[1] +=2
+        logger.info(f'{self.board}',f'{self.stones}')
 
     def _find_anchors(self,tile:tuple[int])->list:
         """ Finds all the anchors and returns them ."""
@@ -62,6 +60,7 @@ class Board:
         tile = tuple(tile)
         logger.info(f'kliknute policko: {tile}, hrac na tomto policku:{self.board[tuple(tile)]}')
         self.board[tile] = self.player
+        self.stones[self.player] +=1
         logger.info(f'pole{self.board}, aktualni hrac na tahu: {self.player}')
         # converting stones
         anchors = []
@@ -90,6 +89,9 @@ class Board:
                 converted.append(looking_at)
                 logger.info(f'konvertoval jsem {looking_at}')
                 self.board[looking_at] *= -1
+                self.stones[self.player]+=1
+                self.stones[-self.player]-=1
+                logger.info(f'bily ma {self.stones[-1]} kamenu a cerny ma {self.stones[1]} kamenu')
 
                 if self.board[looking_at] == 0:
                     logger.error('There should always be stone between tile and anchor')
@@ -129,7 +131,7 @@ class Board:
         """Checks the number of stones left and return the number of winning
         player"""
 
-        white_won = len(self.white_stones)>len(self.black_stones)
+        white_won = len(self.stones[-1])>len(self.stones[1])
         if white_won:
             return -1
         return 1
@@ -137,9 +139,9 @@ class Board:
     def _stones_left(self):
         """Checks if any player is out of stones"""
 
-        if not self.white_stones:
+        if not self.stones[1]:
             return False
-        if not self.black_stones:
+        if not self.stones[-1]:
             return False
         return True
 
