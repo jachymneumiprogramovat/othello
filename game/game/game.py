@@ -1,7 +1,7 @@
 import pygame as pg
 from loguru import logger
-from constants import *
-from stone import Stone
+from game.constants import *
+from game.stone import Stone
 
 
 class Game:

@@ -5,9 +5,9 @@ import sys
 import pathlib
 import numpy as np
 
-from constants import *
-from game import Game
-from board import Board
+from game.constants import *
+from game.game import Game
+from game.board import Board
 
 def main():
     """Main function"""
@@ -62,7 +62,8 @@ def main():
                     continue
 
                 # play the move 
-                to_change = board.play_move(tile)
+                new_board, to_change = board.play_move(tile)
+                board.board=new_board
                 curr_color = WHITE_COLOR if board.player ==-1 else BLACK_COLOR
                 rect_to_change=game.draw_squares(to_change,curr_color)
 

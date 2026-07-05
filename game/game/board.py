@@ -1,6 +1,7 @@
-from constants import *
+from game.constants import *
 from loguru import logger
 import numpy  as np
+from copy import deepcopy
 
 class Board:
     """Class for handeling the logic behind the game"""
@@ -9,8 +10,8 @@ class Board:
         self.player = 1
         self.dirs = [(1,0),(0,1),(-1,0),(0,-1),(1,1),(1,-1),(-1,-1),(-1,1)]
 
-        self.stones = [None, 0,0]
-        self.poss_moves = [None, [], []] #na indexu hrace je seznam moznych tahu
+        self.stones = [0, 0,0]
+        self.poss_moves = [0, [], []] #na indexu hrace je seznam moznych tahu
         self.poss_anchors = [None, [], []]
 
     def setup_board(self):
@@ -45,7 +46,7 @@ class Board:
                 # opposite color
                 # print(f'on tile: {examined} is player: {teritory}, {self.player}, {anchors}')
                 if teritory == self.player:
-                    logger.info(f'pridal jsem pole {examined} jako anchor pro {tile}')
+                    #logger.info(f'pridal jsem pole {examined} jako anchor pro {tile}')
                     anchors.append(examined)
                     break
                 elif teritory == 0:
@@ -53,50 +54,49 @@ class Board:
         return anchors
 
     def play_move(self,tile:tuple[int]):
-        """ Converts all the necesarry tiles on board to make the move happen
-        and returns converted indicies for the Game to draw them. """
+        """ Returns a new board with the move played and the tiles that
+        changed. """
+
+        board = np.array(deepcopy(self.board))
 
         # placing the actual stone
         tile = tuple(tile)
-        logger.info(f'kliknute policko: {tile}, hrac na tomto policku:{self.board[tuple(tile)]}')
-        self.board[tile] = self.player
+        # logger.info(f'kliknute policko: {tile}, hrac na tomto policku:{board[tuple(tile)]}')
+        board[tile] = self.player
         self.stones[self.player] +=1
-        logger.info(f'pole{self.board}, aktualni hrac na tahu: {self.player}')
         # converting stones
         anchors = []
-        logger.info(f'mozne tahy: {self.poss_moves}, jejich anchori: {self.poss_anchors}')
-        # for poss_move in self.poss_moves[self.player]:
-            # logger.info(f'chci tah pro pozici:{tile} a koukam na tah pro pozici: {poss_move[0]} jeho anchory jsou {poss_move[1:][0]}')
-        #    if poss_move[0]==tile:
-        #        anchors = poss_move[1:][0]
+        # logger.info(f'mozne tahy: {self.poss_moves}, jejich anchori: {self.poss_anchors}')
+
         anchor_index = self.poss_moves[self.player].index(tile)
         anchors = self.poss_anchors[self.player][anchor_index]
         if not anchors:
-            logger.info('Alegedly possible tile without anchors, wtf')
-        logger.info(f'anchori jsou {anchors}')
+            logger.error('Alegedly possible tile without anchors, wtf')
+        #logger.info(f'anchori jsou {anchors}')
 
         converted = []
         for anchor in anchors:
             difference = tuple(anchor[i]-tile[i] for i in range(2))
             distance = max([abs(x) for x in difference])
             direction = tuple(np.array(difference)//distance)
-            logger.info(f'difference:{difference},distanece:{distance},direction:{direction}')
+            # logger.info(f'difference:{difference},distanece:{distance},direction:{direction}')
 
             for i in range(1,distance):
                 vzdalenost = tuple(int(x)*i for x in direction)
                 looking_at = tuple(np.add(tile,vzdalenost))
 
                 converted.append(looking_at)
-                logger.info(f'konvertoval jsem {looking_at}')
-                self.board[looking_at] *= -1
+                # logger.info(f'konvertoval jsem {looking_at}')
+                board[looking_at] *= -1
                 self.stones[self.player]+=1
                 self.stones[-self.player]-=1
-                logger.info(f'bily ma {self.stones[-1]} kamenu a cerny ma {self.stones[1]} kamenu')
+                # logger.info(f'bily ma {self.stones[-1]} kamenu a cerny ma {self.stones[1]} kamenu')
 
-                if self.board[looking_at] == 0:
+                if board[looking_at] == 0:
                     logger.error('There should always be stone between tile and anchor')
         converted.append(tile)
-        return converted
+        # logger.info(f'pole{board}, aktualni hrac na tahu: {self.player}')
+        return (board,converted)
 
     def get_possible_moves(self):
         """ Overwrites list of possible move for the current player """
@@ -132,9 +132,11 @@ class Board:
         player"""
 
         white_won = self.stones[-1]>self.stones[1]
-        if white_won:
+        if self.stones[-1]>self.stones[1]:
             return -1
-        return 1
+        elif self.stones[-1]<self.stones[1]:
+            return 1
+        return 0
 
     def _stones_left(self):
         """Checks if any player is out of stones"""
