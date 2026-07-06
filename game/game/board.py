@@ -27,12 +27,17 @@ class Board:
             ])
         self.board[3][3]=-1
         self.board[4][4]=-1
-        self.stones[-1] +=2
+        self.stones[-1] =2
 
         self.board[3][4]=1
         self.board[4][3]=1
-        self.stones[1] +=2
-        logger.info(f'{self.board}',f'{self.stones}')
+        self.stones[1] =2
+
+        self.poss_moves = [0, [(2, 3), (3, 2), (4, 5), (5, 4)], []]
+        self.poss_anchors = [None, [[(np.int64(4), np.int64(3))],
+                                    [(np.int64(3), np.int64(4))],
+                                    [(np.int64(4), np.int64(3))],
+                                    [(np.int64(3), np.int64(4))]], []]
 
     def _find_anchors(self,tile:tuple[int])->list:
         """ Finds all the anchors and returns them ."""
@@ -122,7 +127,7 @@ class Board:
                 if anchors:
                     poss_moves.append(tile)
                     all_anchors.append(anchors)
-        self.poss_moves[self.player] = poss_moves
+        self.poss_moves[self.player] = deepcopy(poss_moves)
         self.poss_anchors[self.player] = all_anchors
         return poss_moves
 

@@ -18,28 +18,33 @@ class MTS():
         """Either the one with default rating value or the one with the biggest
         one."""
         if not node.children:
+            logger.error('jaktoze kurva nema deti dopice')
             return None
         parent_value = math.log(node.visited)
-        return max(node.children,key=lambda x: x.calculate_score(parent_value))
+        for child in node.children:
+            logger.info('dite')
+            logger.info(f'{child.board}, {child.visited}')
+        children_scores = [child.calculate_score(parent_value=parent_value) for child in node.children]
+        logger.info(children_scores)
+        return max(children_scores)
 
     def select(self,node:MTSNode):
         """Returns the path to first unexplored descendant of node."""
         path = []
         while True:
+            logger.info(f'koukam se na {node.board}')
             path.append(node)
-            if not node.children:
+            if node.poss_children:
                 return path
-            # bro tady vybira jeste vybira syny co nejsou expandtnute a s nima
-            # tu cestu rovnou vraci idk proc ale tohle by snad melo delat neco
-            # podobneho
             node = self.select_best_child(node)
 
 
     def expand(self,node:MTSNode)->list[MTSNode]:
-        """Returns all children for a given node."""
-        if node.children:
-            return 
-        return node.get_children()
+        """Returns random, previously not existent children for a node without
+        all children."""
+        move = node.poss_children.pop()
+        child = MTSNode(board = node.play_move(move)[0], player= -node.player, move = move)
+        return child
 
     def simulate(self,node:MTSNode)->int:
         """ Randomly plays the game from node till the end and returns the outcome """
@@ -60,9 +65,12 @@ class MTS():
 
     def backpropagate(self,path:list[MTSNode],reward):
         """ Backpropagates the reward down the path """
-        for node in reversed(path):
+        for node in path:
             node.visited += 1
-            node.results[reward*node.player] += 1
+            node.results[reward] += 1
+            logger.info(f'nastavil jsem visity pro {node.board} na {node.visited}')
+
+
 
     def rollout(self,root:MTSNode):
         """ Performs select and expand in need, then simulate and finally
@@ -70,20 +78,16 @@ class MTS():
         path = self.select(root)
         logger.info(f'cesta k vrcholu je f{[x.board for x in path]}')
         leaf = path[-1]
-        logger.info(f'listem je MTSNode s boardem {leaf.board}')
-        self.expand(leaf)
-        logger.info(f'synove listu jsou {[x.board for x in leaf.children]}')
+        # logger.info(f'listem je MTSNode s boardem {leaf.board}')
+        new_node = self.expand(leaf)
+        leaf.children.append(new_node)
+        path.append(new_node)
+        # logger.info(f'synove listu jsou {[x.board for x in leaf.children]}')
         for _ in tqdm(range(SIMULATION_COUNT)):
             reward = self.simulate(leaf)
             self.backpropagate(path,reward)
+            logger.info(f'nody v ceste maji takoveto resulty a visity')
+            for node in path:
+                logger.info(f'resulty: {node.results}, visity: {node.visited}')
 
-    def train(self):
-        """ Rollsout many times from the initial board position """
-        root = MTSNode(board=DEFAULT_BOARD,player=-1)
-        for _ in tqdm(range(ROLLOUT_COUNT)):
-            self.rollout(root)
-        return root # TODO smazat return, slouzi jen pro debug
-
-    def store(self,root):
-        """ PUTs all the MTSNodes and their best_children into the db. """
 

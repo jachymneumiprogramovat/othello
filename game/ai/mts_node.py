@@ -5,13 +5,16 @@ import math
 
 
 class MTSNode(Board):
-    def __init__(self,board,player):
+    def __init__(self,board,player,move):
         super().__init__()
         self.board = board # this overwrites the empty board from Board
         self.player = player
+        self.move = move # how was this state achived from its parent
         self.children:list[MTSNode] = []
+        self.poss_children:list[tuple] = self.get_possible_moves()
+        logger.info(f'nastavil jsem mozne deti jakoze {self.poss_moves}')
         self.visited:int = 0
-        self.results:list[int] = [0,0,0] # [draw,win,loss]
+        self.results:list[int] = [0,0,0] # [draw,win for 1, wins for -1]
         self.board_state:list = []
         self.rating:float = 0
 
@@ -19,12 +22,12 @@ class MTSNode(Board):
         
         # logger.info(f'hodnoty kamenu jsem inicializoval jako {self.stones}')
 
-    def calculate_score(self,paren_value:float):
+    def calculate_score(self,parent_value:float):
         """Returns the score based on self.visited and self.results"""
         if self.visited == 0:
-            return float('inf')
-        print(self.player,self.results[-self.player],self.results[-1]/self.visited,EXPLORATION*math.sqrt((paren_value/self.visited)))
-        return self.results[-1]/self.visited + EXPLORATION*math.sqrt((paren_value/self.visited))
+            logger.error('i tried to calculate score for a node without visits.')
+            return None
+        return self.results[-1]/self.visited + EXPLORATION*math.sqrt((parent_value/self.visited))
 
     def _count_stones(self):
         """Counts the stone from the board so it can be intialized nontriviali
@@ -38,6 +41,6 @@ class MTSNode(Board):
         poss_moves = self.get_possible_moves()
         for poss_move in poss_moves:
             children_board, _ = self.play_move(poss_move)
-            children = MTSNode(board=children_board,player=-self.player)
+            children = MTSNode(board=children_board,player=-self.player,move=poss_move)
             self.children.append(children)
         return self.children

@@ -11,7 +11,7 @@ Othello played automatically and randomly to gather inside of the game
 
 logger.remove()
 
-ITERATIONS = 1000
+ITERATIONS = 1
 
 board = Board()
 board.setup_board()
@@ -63,3 +63,12 @@ white_poss_moves = number_poss_moves[::2]
 
 #plt.plot(range(len(number_poss_moves)),number_poss_moves)
 #plt.show()
+
+
+
+
+
+board = Board()
+board.setup_board()
+board.get_possible_moves()
+print(board.poss_moves,board.poss_anchors)
