@@ -11,7 +11,7 @@ Othello played automatically and randomly to gather inside of the game
 
 logger.remove()
 
-ITERATIONS = 50000
+ITERATIONS = 1000
 
 board = Board()
 board.setup_board()
@@ -20,9 +20,12 @@ number_poss_moves = []
 number_of_moves = 0
 board.get_possible_moves()
 white_stones = []
-
+end_states = set()
 start = time.time()
-for i in tqdm(range(ITERATIONS)):
+
+
+for i in range(ITERATIONS):
+    moves_chosen = []
     while not board.is_game_over():
         poss_moves = board.get_possible_moves()
 
@@ -34,14 +37,24 @@ for i in tqdm(range(ITERATIONS)):
         number_of_moves+=1
 
         move = poss_moves[randint(0,len(poss_moves)-1)]
+        moves_chosen.append(move)
         board.board, _ = board.play_move(move)
         board.player *=-1
+    end_states.add(str(board.board))
+    # print(moves_chosen)
     board.setup_board()
+    board.stones[-1] = 0
+    board.stones[1] = 0
+    for row in board.board:
+        for tile in row:
+            board.stones[tile]+=1
+    # print(board.is_game_over())
 end=time.time()
 # print(board.determine_winner())
 #print(number_poss_moves)
 #print(number_of_moves)
 print(end-start)
+print(len(end_states))
 white_poss_moves = number_poss_moves[::2]
 #print(white_poss_moves)
 #plt.plot(range(len(white_poss_moves)),white_poss_moves,color='blue')

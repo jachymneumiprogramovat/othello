@@ -15,6 +15,16 @@ class Board:
         self.poss_anchors = [None, [], []]
 
     def setup_board(self):
+        self.board = np.array([
+            [ 0,  0,  0,  0,  0,  0,  0,  0],
+            [ 0,  0,  0,  0,  0,  0,  0,  0],
+            [ 0,  0,  0,  0,  0,  0,  0,  0],
+            [ 0,  0,  0,  0,  0,  0,  0,  0],
+            [ 0,  0,  0,  0,  0,  0,  0,  0],
+            [ 0,  0,  0,  0,  0,  0,  0,  0],
+            [ 0,  0,  0,  0,  0,  0,  0,  0],
+            [ 0,  0,  0,  0,  0,  0,  0,  0]
+            ])
         self.board[3][3]=-1
         self.board[4][4]=-1
         self.stones[-1] +=2
@@ -124,7 +134,8 @@ class Board:
             return True
         
         if not self.poss_moves[1] and not self.poss_moves[-1]:
-            return True
+            if self.stones[1] + self.stones[-1] != 4:
+                return True
         return False
 
     def determine_winner(self):
