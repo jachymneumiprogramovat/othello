@@ -54,6 +54,18 @@ def main():
 
     pg.display.update(game.draw_squares(board.poss_moves[1],HIGHLITE_COLOR))
     while running:
+        current_poss_moves = board.get_possible_moves()
+        
+        if not current_poss_moves:
+            if board.is_game_over():
+                winner = board.determine_winner()
+                logger.info(f'Game won by player {winner}')
+                break
+            else:
+                # 2. Force the turn pass for whoever's turn it is
+                logger.info(f'Player {board.player} has no valid plays. Passing turn.')
+                board.player *= -1
+                continue # Skip the rest of the loop and start the next turn
         if board.player == 1:
             clock.tick(TIKS)
             rect_to_change = []
@@ -75,6 +87,9 @@ def main():
                     
                     if not tile in poss_moves:
                         continue
+                    if not poss_moves:
+                        board.player *=-1
+                        continue
 
                     # play the move 
                     new_board, to_change = board.play_move(tile)
@@ -85,6 +100,7 @@ def main():
                     if board.is_game_over():
                         winner = board.determine_winner()
                         logger.info(f'game won by player {winner}')
+                        print(f'vyhral hrac {winner}')
                         break
 
                     #prepare board for next turn
@@ -98,6 +114,11 @@ def main():
         else:
             move = get_mcts_move(board.board,-board.player)
             poss_moves = board.get_possible_moves()
+
+            if not poss_moves:
+                board.player *=-1
+                continue
+
             new_board, to_change = board.play_move(move)
             board.board=new_board
             rect_to_change=game.draw_squares(to_change,WHITE_COLOR)
@@ -106,6 +127,7 @@ def main():
             if board.is_game_over():
                 winner = board.determine_winner()
                 logger.info(f'game won by player {winner}')
+                print(f'vyhral hrac {winner}')
                 break
 
             #prepare board for next turn
@@ -119,6 +141,11 @@ def main():
 
             logger.info(rect_to_change)
         pg.display.update(rect_to_change)
+    if board.is_game_over():
+        winner = board.determine_winner()
+        logger.info(f'game won by player {winner}')
+        print(f'vyhral hrac {winner}')
+
 
 if __name__ == "__main__":
     base_dir = pathlib.Path(__file__).parent.resolve()

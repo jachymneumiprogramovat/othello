@@ -34,6 +34,8 @@ class MTS():
         while True:
             logger.info(f'koukam se na {node}')
             path.append(node)
+            if not node.poss_children and not node.children:
+                return path
             if node.poss_children:
                 return path
             node = self.select_best_child(node)
@@ -42,8 +44,15 @@ class MTS():
     def expand(self,node:MTSNode)->list[MTSNode]:
         """Returns random, previously not existent children for a node without
         all children."""
-        move = node.poss_children.pop()
-        child = MTSNode(board = node.play_move(move)[0], player= -node.player, move = move)
+        poss_moves = node.poss_children
+        if not poss_moves:
+            if node.is_game_over():
+                return node
+            pass_child = MTSNode(board=deepcopy(node.board), player=-node.player, move=None)
+            return pass_child
+
+        move = poss_moves.pop()
+        child = MTSNode(board=node.play_move(move)[0], player=-node.player, move=move)
         return child
 
     def simulate(self,node:MTSNode)->int:
@@ -70,8 +79,6 @@ class MTS():
             node.results[reward] += 1
             logger.info(f'nastavil jsem visity pro {node.board} na {node.visited}')
 
-
-
     def rollout(self,root:MTSNode):
         """ Performs select and expand in need, then simulate and finally
         backpropagate """
@@ -80,14 +87,12 @@ class MTS():
         leaf = path[-1]
         # logger.info(f'listem je MTSNode s boardem {leaf.board}')
         new_node = self.expand(leaf)
-        leaf.children.append(new_node)
-        path.append(new_node)
+        if new_node != leaf:
+            leaf.children.append(new_node)
+            path.append(new_node)
         # logger.info(f'synove listu jsou {[x.board for x in leaf.children]}')
         for _ in range(SIMULATION_COUNT):
             reward = self.simulate(leaf)
             self.backpropagate(path,reward)
-            logger.info(f'nody v ceste maji takoveto resulty a visity')
-            for node in path:
-                logger.info(f'resulty: {node.results}, visity: {node.visited}')
 
 
