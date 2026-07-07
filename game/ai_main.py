@@ -28,7 +28,7 @@ def get_mcts_move(board:list,player:int):
     child = mts.select_best_child(root)
     return child.move
 
-def main():
+def ai_main():
     os.environ['SDL_VIDEO_WINDOW_POS'] = "1100,200"
     pg.mixer.pre_init(44100, -16, 2, 2048)
     # Initing pygame
@@ -53,116 +53,71 @@ def main():
     logger.info(f'{board.board}')
 
     pg.display.update(game.draw_squares(board.poss_moves[1],HIGHLITE_COLOR))
+    move_made = False
     while running:
-        current_poss_moves = board.get_possible_moves()
+        poss_moves = board.get_possible_moves()
         
-        if not current_poss_moves:
+        if not poss_moves:
             if board.is_game_over():
                 winner = board.determine_winner()
                 logger.info(f'Game won by player {winner}')
                 break
             else:
-                # 2. Force the turn pass for whoever's turn it is
                 logger.info(f'Player {board.player} has no valid plays. Passing turn.')
                 board.player *= -1
-                continue # Skip the rest of the loop and start the next turn
+                continue 
+
+        # human player plays
         if board.player == 1:
             clock.tick(TIKS)
             rect_to_change = []
 
             for event in pg.event.get():
-                # Check quit event
                 if event.type == pg.QUIT:
                     logger.info("Quit signal received. Exiting...")
                     running = False
-                # Check mouse click
                 if event.type == pg.MOUSEBUTTONDOWN:
                     logger.debug("Mouse click signal received.")
-                    tile = tuple(np.array(event.pos)//100)
-                    tile = (tile[1],tile[0])
-                    logger.info(str(tuple(int(x) for x in tile)))
-                    
-                    poss_moves = board.poss_moves[board.player]
-                    logger.info(f'{tile},{[x for x in poss_moves]}')
-                    
-                    if not tile in poss_moves:
-                        continue
-                    if not poss_moves:
-                        board.player *=-1
-                        continue
-
-                    # play the move 
-                    new_board, to_change = board.play_move(tile)
-                    board.board=new_board
-                    rect_to_change=game.draw_squares(to_change,BLACK_COLOR)
-
-                    #check for end of the game
-                    if board.is_game_over():
-                        winner = board.determine_winner()
-                        logger.info(f'game won by player {winner}')
-                        print(f'vyhral hrac {winner}')
-                        break
-
-                    #prepare board for next turn
-                    board.player *=-1
-                    next_poss_moves = board.get_possible_moves()
-
-                    poss_moves.remove(tile)
-                    rect_to_change+=game.draw_squares(poss_moves, TILE_COLOR)
-                    rect_to_change+=game.draw_squares(next_poss_moves,HIGHLITE_COLOR)
-                    logger.info(rect_to_change)
+                    move = tuple(np.array(event.pos)//100)
+                    move = (move[1],move[0])
+                    move_made = True
+        # AI plays
         else:
             move = get_mcts_move(board.board,-board.player)
             poss_moves = board.get_possible_moves()
+            move_made = True
 
+        if move_made:
+            # generic resolving of the move
+            if move not in poss_moves:
+                continue
             if not poss_moves:
                 board.player *=-1
                 continue
 
+            # play the move
             new_board, to_change = board.play_move(move)
             board.board=new_board
-            rect_to_change=game.draw_squares(to_change,WHITE_COLOR)
+            curr_color = BLACK_COLOR if board.player ==1 else WHITE_COLOR
+            rect_to_change=game.draw_squares(to_change,curr_color)
 
             #check for end of the game
             if board.is_game_over():
-                winner = board.determine_winner()
-                logger.info(f'game won by player {winner}')
-                print(f'vyhral hrac {winner}')
                 break
 
             #prepare board for next turn
             board.player *=-1
             next_poss_moves = board.get_possible_moves()
-        
 
             poss_moves.remove(move)
             rect_to_change+=game.draw_squares(poss_moves, TILE_COLOR)
             rect_to_change+=game.draw_squares(next_poss_moves,HIGHLITE_COLOR)
-
             logger.info(rect_to_change)
+            
+            move_made = False
+
         pg.display.update(rect_to_change)
+
     if board.is_game_over():
         winner = board.determine_winner()
         logger.info(f'game won by player {winner}')
-        print(f'vyhral hrac {winner}')
-
-
-if __name__ == "__main__":
-    base_dir = pathlib.Path(__file__).parent.resolve()
-    logger.remove()
-
-    # logger.add(
-    #     os.path.join(base_dir, "main.log"),
-    #     colorize=True,
-    #     format="<green>{file}/{function}/{line}</green> <level>{message}</level>",
-    #     level="INFO",
-    # )
-    # logger.add(
-    #     sys.stdout,
-    #     colorize=True,
-    #     format="<green>{file}/{function}/{line}</green> <level>{message}</level>",
-    #     level="INFO",
-    # )
-    logger.add(sys.stderr, filter=lambda record: record["level"].name == "ERROR")
-    main()
-

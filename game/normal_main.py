@@ -9,7 +9,7 @@ from game.constants import *
 from game.game import Game
 from game.board import Board
 
-def main():
+def normal_main():
     """Main function"""
 
     os.environ['SDL_VIDEO_WINDOW_POS'] = "1100,200"
@@ -83,25 +83,3 @@ def main():
 
                 logger.info(rect_to_change)
         pg.display.update(rect_to_change)
-
-
-
-
-
-if __name__ == "__main__":
-    base_dir = pathlib.Path(__file__).parent.resolve()
-    logger.remove()
-    logger.add(
-        os.path.join(base_dir, "main.log"),
-        colorize=True,
-        format="<green>{file}/{function}/{line}</green> <level>{message}</level>",
-        level="INFO",
-    )
-    logger.add(
-        sys.stdout,
-        colorize=True,
-        format="<green>{file}/{function}/{line}</green> <level>{message}</level>",
-        level="INFO",
-    )
-    main()
-
