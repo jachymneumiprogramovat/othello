@@ -44,28 +44,29 @@ class Board:
 
         anchors = []
         op_player = -self.player
-        for dir in self.dirs:
-            try:
-                if self.board[tuple(np.add(tile,dir))]!=op_player:
-                    continue
-            except:
+        x,y = tile
+        for dx,dy in self.dirs:
+            nx,ny = x+dx, y+dy
+            if not(0<=nx<8 and 0<=ny<8):
+                continue
+            
+            if self.board[nx, ny] != op_player:
                 continue
 
-            for i in range(1,len(self.board)):
-                examined = tuple(np.add(tile,tuple(np.array(dir)*i)))
-                try:
-                    teritory = self.board[examined]
-                except:
-                    continue
-                # does not break only if in this direction are stones of
-                # opposite color
-                # print(f'on tile: {examined} is player: {teritory}, {self.player}, {anchors}')
-                if teritory == self.player:
-                    #logger.info(f'pridal jsem pole {examined} jako anchor pro {tile}')
-                    anchors.append(examined)
+            curr_x, curr_y = nx + dx, ny + dy
+
+            while 0 <= curr_x < 8 and 0 <= curr_y < 8:
+                territory = self.board[curr_x, curr_y]
+
+                if territory == self.player:
+                    anchors.append((curr_x, curr_y))
                     break
-                elif teritory == 0:
+                elif territory == 0:
                     break
+                    
+                # If it's another opponent stone, keep moving in the same direction
+                curr_x += dx
+                curr_y += dy                  
         return anchors
 
     def play_move(self,tile:tuple[int]):
@@ -95,7 +96,7 @@ class Board:
         for anchor in anchors:
             difference = tuple(anchor[i]-tile[i] for i in range(2))
             distance = max([abs(x) for x in difference])
-            direction = tuple(np.array(difference)//distance)
+            direction = tuple(np.array(difference)//distance) # normalizing
             # logger.info(f'difference:{difference},distanece:{distance},direction:{direction}')
 
             for i in range(1,distance):
@@ -116,7 +117,7 @@ class Board:
         return (board,converted)
 
     def get_possible_moves(self):
-        """ Overwrites list of possible move for the current player """
+        """ Overwrites and returns list of possible moves for the current player """
 
         poss_moves = []
         all_anchors = []
@@ -149,10 +150,9 @@ class Board:
         """Checks the number of stones left and return the number of winning
         player"""
 
-        white_won = self.stones[-1]>self.stones[1]
         if self.stones[-1]>self.stones[1]:
             return -1
-        elif self.stones[-1]<self.stones[1]:
+        if self.stones[-1]<self.stones[1]:
             return 1
         return 0
 

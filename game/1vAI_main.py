@@ -25,9 +25,7 @@ def get_mcts_move(board:list,player:int):
     root = MTSNode(board =board,player=-player,move=None)
     for _ in tqdm(range(ROLLOUT_COUNT)):
         mts.rollout(root=root)
-    print([child.move for child in root.children])
     child = mts.select_best_child(root)
-    print(child.move)
     return child.move
 
 def main():
@@ -113,10 +111,11 @@ def main():
             #prepare board for next turn
             board.player *=-1
             next_poss_moves = board.get_possible_moves()
+        
 
             poss_moves.remove(move)
             rect_to_change+=game.draw_squares(poss_moves, TILE_COLOR)
-            rect_to_change+=game.draw_squares(next_poss_moves,TILE_COLOR)
+            rect_to_change+=game.draw_squares(next_poss_moves,HIGHLITE_COLOR)
 
             logger.info(rect_to_change)
         pg.display.update(rect_to_change)
