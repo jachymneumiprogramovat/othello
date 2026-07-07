@@ -83,6 +83,8 @@ class Board:
         anchors = []
         # logger.info(f'mozne tahy: {self.poss_moves}, jejich anchori: {self.poss_anchors}')
 
+        if tile not in self.poss_moves[self.player]:
+            logger.error(f'tah {tile} neni v moznych tazich, idk jak se tohle deje kamo')
         anchor_index = self.poss_moves[self.player].index(tile)
         anchors = self.poss_anchors[self.player][anchor_index]
         if not anchors:

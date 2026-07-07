@@ -26,13 +26,13 @@ class MTS():
             logger.info(f'{child.board}, {child.visited}')
         children_scores = [child.calculate_score(parent_value=parent_value) for child in node.children]
         logger.info(children_scores)
-        return max(children_scores)
+        return max(node.children, key=lambda x: x.calculate_score(parent_value))
 
     def select(self,node:MTSNode):
         """Returns the path to first unexplored descendant of node."""
         path = []
         while True:
-            logger.info(f'koukam se na {node.board}')
+            logger.info(f'koukam se na {node}')
             path.append(node)
             if node.poss_children:
                 return path
@@ -83,7 +83,7 @@ class MTS():
         leaf.children.append(new_node)
         path.append(new_node)
         # logger.info(f'synove listu jsou {[x.board for x in leaf.children]}')
-        for _ in tqdm(range(SIMULATION_COUNT)):
+        for _ in range(SIMULATION_COUNT):
             reward = self.simulate(leaf)
             self.backpropagate(path,reward)
             logger.info(f'nody v ceste maji takoveto resulty a visity')
