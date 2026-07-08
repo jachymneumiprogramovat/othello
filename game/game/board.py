@@ -77,12 +77,12 @@ class Board:
 
         # placing the actual stone
         tile = tuple(tile)
-        # logger.info(f'kliknute policko: {tile}, hrac na tomto policku:{board[tuple(tile)]}')
+        logger.debug(f'kliknute policko: {tile}, hrac na tomto policku:{board[tuple(tile)]}')
         board[tile] = self.player
         self.stones[self.player] +=1
         # converting stones
         anchors = []
-        # logger.info(f'mozne tahy: {self.poss_moves}, jejich anchori: {self.poss_anchors}')
+        logger.debug(f'mozne tahy: {self.poss_moves}, jejich anchori: {self.poss_anchors}')
 
         if tile not in self.poss_moves[self.player]:
             logger.error(f'tah {tile} neni v moznych tazich, idk jak se tohle deje kamo')
@@ -90,30 +90,30 @@ class Board:
         anchors = self.poss_anchors[self.player][anchor_index]
         if not anchors:
             logger.error('Alegedly possible tile without anchors, wtf')
-        #logger.info(f'anchori jsou {anchors}')
+        logger.debug(f'anchori jsou {anchors}')
 
         converted = []
         for anchor in anchors:
             difference = tuple(anchor[i]-tile[i] for i in range(2))
             distance = max([abs(x) for x in difference])
             direction = tuple(np.array(difference)//distance) # normalizing
-            # logger.info(f'difference:{difference},distanece:{distance},direction:{direction}')
+            logger.debug(f'difference:{difference},distanece:{distance},direction:{direction}')
 
             for i in range(1,distance):
                 vzdalenost = tuple(int(x)*i for x in direction)
                 looking_at = tuple(np.add(tile,vzdalenost))
 
                 converted.append(looking_at)
-                # logger.info(f'konvertoval jsem {looking_at}')
+                logger.debug(f'konvertoval jsem {looking_at}')
                 board[looking_at] *= -1
                 self.stones[self.player]+=1
                 self.stones[-self.player]-=1
-                # logger.info(f'bily ma {self.stones[-1]} kamenu a cerny ma {self.stones[1]} kamenu')
+                logger.debug(f'bily ma {self.stones[-1]} kamenu a cerny ma {self.stones[1]} kamenu')
 
                 if board[looking_at] == 0:
                     logger.error('There should always be stone between tile and anchor')
         converted.append(tile)
-        # logger.info(f'pole{board}, aktualni hrac na tahu: {self.player}')
+        logger.debug(f'pole{board}, aktualni hrac na tahu: {self.player}')
         return (board,converted)
 
     def get_possible_moves(self):

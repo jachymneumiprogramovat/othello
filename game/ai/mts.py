@@ -21,18 +21,14 @@ class MTS():
             logger.error('jaktoze kurva nema deti dopice')
             return None
         parent_value = math.log(node.visited)
-        for child in node.children:
-            logger.info('dite')
-            logger.info(f'{child.board}, {child.visited}')
-        children_scores = [child.calculate_score(parent_value=parent_value) for child in node.children]
-        logger.info(children_scores)
+        logger.debug([(child.move,child.results,child.visited) for child in node.children])
         return max(node.children, key=lambda x: x.calculate_score(parent_value))
 
     def select(self,node:MTSNode):
         """Returns the path to first unexplored descendant of node."""
         path = []
         while True:
-            logger.info(f'koukam se na {node}')
+            logger.debug(f'koukam se na {node}')
             path.append(node)
             if not node.poss_children and not node.children:
                 return path
@@ -77,20 +73,20 @@ class MTS():
         for node in path:
             node.visited += 1
             node.results[reward] += 1
-            logger.info(f'nastavil jsem visity pro {node.board} na {node.visited}')
+            logger.debug(f'nastavil jsem visity pro {node.board} na {node.visited}')
 
     def rollout(self,root:MTSNode):
         """ Performs select and expand in need, then simulate and finally
         backpropagate """
         path = self.select(root)
-        logger.info(f'cesta k vrcholu je f{[x.board for x in path]}')
+        logger.debug(f'cesta k vrcholu je f{[x.board for x in path]}')
         leaf = path[-1]
-        # logger.info(f'listem je MTSNode s boardem {leaf.board}')
+        logger.debug(f'listem je MTSNode s boardem {leaf.board}')
         new_node = self.expand(leaf)
         if new_node != leaf:
             leaf.children.append(new_node)
             path.append(new_node)
-        # logger.info(f'synove listu jsou {[x.board for x in leaf.children]}')
+        logger.debug(f'synove listu jsou {[x.board for x in leaf.children]}')
         for _ in range(SIMULATION_COUNT):
             reward = self.simulate(leaf)
             self.backpropagate(path,reward)

@@ -1,10 +1,12 @@
-from game.board import Board
-from loguru import logger 
-from ai.mts_constants import *
 import math
+from loguru import logger 
 
+from game.board import Board
+from ai.mts_constants import *
 
 class MTSNode(Board):
+    """Tree node for the monte carlo tree search."""
+
     def __init__(self,board,player,move):
         super().__init__()
         self.board = board # this overwrites the empty board from Board
@@ -12,20 +14,18 @@ class MTSNode(Board):
         self.move = move # how was this state achived from its parent
         self.children:list[MTSNode] = []
         self.poss_children:list[tuple] = self.get_possible_moves()
-        logger.info(f'nastavil jsem mozne deti jakoze {self.poss_moves}')
+        logger.debug(f'nastavil jsem mozne deti jakoze {self.poss_moves}')
         self.visited:int = 0
-        self.results:list[int] = [0,0,0] # [draw,win for 1, wins for -1]
+        self.results:list[int] = [0,0,0] # [draw, wins for 1, wins for -1]
         self.board_state:list = []
         self.rating:float = 0
 
         self._count_stones()
         
-        # logger.info(f'hodnoty kamenu jsem inicializoval jako {self.stones}')
-
     def calculate_score(self,parent_value:float):
         """Returns the score based on self.visited and self.results"""
         if self.visited == 0:
-            logger.error('i tried to calculate score for a node without visits.')
+            logger.error('I tried to calculate score for a node without visits.')
             return None
         return self.results[-1]/self.visited + EXPLORATION*math.sqrt((parent_value/self.visited))
 

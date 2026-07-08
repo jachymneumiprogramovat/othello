@@ -3,6 +3,8 @@ import sys
 import os
 import pathlib
 
+from random import choice
+
 import pygame as pg
 from time import time
 from loguru import logger
@@ -28,15 +30,7 @@ def get_mcts_move(board:list,player:int):
     child = mts.select_best_child(root)
     return child.move
 
-def ai_main():
-    os.environ['SDL_VIDEO_WINDOW_POS'] = "1100,200"
-    pg.mixer.pre_init(44100, -16, 2, 2048)
-    # Initing pygame
-    pg.init()
-    screen = pg.display.set_mode((WIDTH, HEIGHT),pg.SRCALPHA)
-    pg.display.set_caption(CAPTION)
-    logger.info('Pygame setup')
-
+def ai_main(screen):
     clock = pg.time.Clock()
     running = True
 
@@ -44,11 +38,11 @@ def ai_main():
     game = Game(screen)
     game.setup_screen()
     pg.display.flip()
-    logger.info('screen setup')
+    logger.success('screen setup')
 
     board = Board()
     board.setup_board()
-    logger.info('logic setup')
+    logger.success('logic setup')
 
     logger.info(f'{board.board}')
 
@@ -60,10 +54,10 @@ def ai_main():
         if not poss_moves:
             if board.is_game_over():
                 winner = board.determine_winner()
-                logger.info(f'Game won by player {winner}')
+                logger.info(f'Hru vyhrává hráč {winner}')
                 break
             else:
-                logger.info(f'Player {board.player} has no valid plays. Passing turn.')
+                logger.info(f'Hráč {board.player} nemá tahy, skipuju.')
                 board.player *= -1
                 continue 
 
@@ -74,30 +68,30 @@ def ai_main():
 
             for event in pg.event.get():
                 if event.type == pg.QUIT:
-                    logger.info("Quit signal received. Exiting...")
+                    logger.info(choice(GOODBYE_MESSAGES))
                     running = False
                 if event.type == pg.MOUSEBUTTONDOWN:
-                    logger.debug("Mouse click signal received.")
                     move = tuple(np.array(event.pos)//100)
                     move = (move[1],move[0])
+                    logger.info(f'kliknul jsi na policko {move}')
                     move_made = True
         # AI plays
         else:
             move = get_mcts_move(board.board,-board.player)
+            logger.info(f'AI si vybralo tah {move}')
             poss_moves = board.get_possible_moves()
             move_made = True
 
         if move_made:
             # generic resolving of the move
             if move not in poss_moves:
-                continue
-            if not poss_moves:
-                board.player *=-1
+                logger.info('nepodváděj kámo')
                 continue
 
             # play the move
             new_board, to_change = board.play_move(move)
             board.board=new_board
+            logger.info(f'zahral jsem tah {move} a deska je {board.board}')
             curr_color = BLACK_COLOR if board.player ==1 else WHITE_COLOR
             rect_to_change=game.draw_squares(to_change,curr_color)
 
@@ -112,7 +106,6 @@ def ai_main():
             poss_moves.remove(move)
             rect_to_change+=game.draw_squares(poss_moves, TILE_COLOR)
             rect_to_change+=game.draw_squares(next_poss_moves,HIGHLITE_COLOR)
-            logger.info(rect_to_change)
             
             move_made = False
 

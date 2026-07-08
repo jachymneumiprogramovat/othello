@@ -2,8 +2,8 @@
 import numpy as np
 import math 
 EXPLORATION = math.sqrt(2)
-ROLLOUT_COUNT = 10
-SIMULATION_COUNT = 2
+ROLLOUT_COUNT = 400
+SIMULATION_COUNT = 20
 
 
 DEFAULT_BOARD = np.array([
@@ -16,3 +16,4 @@ DEFAULT_BOARD = np.array([
  [ 0,  0,  0,  0,  0,  0,  0,  0],
  [ 0,  0,  0,  0,  0,  0,  0,  0]])
 
+GOODBYE_MESSAGES = ['Bro to vzdal proti AI','Trapáku','Týpka porazili nuly a jedničky','čus']

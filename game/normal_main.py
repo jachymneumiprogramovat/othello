@@ -5,21 +5,14 @@ import sys
 import pathlib
 import numpy as np
 
+from random import choice
+
 from game.constants import *
 from game.game import Game
 from game.board import Board
 
-def normal_main():
+def normal_main(screen):
     """Main function"""
-
-    os.environ['SDL_VIDEO_WINDOW_POS'] = "1100,200"
-    pg.mixer.pre_init(44100, -16, 2, 2048)
-    # Initing pygame
-    pg.init()
-    screen = pg.display.set_mode((WIDTH, HEIGHT),pg.SRCALPHA)
-    pg.display.set_caption(CAPTION)
-    logger.info('Pygame setup')
-
     clock = pg.time.Clock()
     running = True
 
@@ -38,17 +31,14 @@ def normal_main():
 
     poss_moves = board.get_possible_moves()
     pg.display.update(game.draw_squares(poss_moves,HIGHLITE_COLOR))
-    logger.info(f'poss_moves')
     while running:
         clock.tick(TIKS)
         rect_to_change = []
 
         for event in pg.event.get():
-            # Check quit event
             if event.type == pg.QUIT:
-                logger.info("Quit signal received. Exiting...")
+                logger.info(choice(GOODBYE_MESSAGES))
                 running = False
-            # Check mouse click
             if event.type == pg.MOUSEBUTTONDOWN:
                 logger.debug("Mouse click signal received.")
                 tile = tuple(np.array(event.pos)//100)

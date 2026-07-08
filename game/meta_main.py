@@ -1,33 +1,91 @@
 import pathlib
 import sys
 import os
+import platform
 
+import pygame_gui as pui
+import pygame as pg
 from loguru import logger
 
 from ai_main import ai_main
 from normal_main import normal_main
 
-def correct_input(input_value):
-    try:
-        input_value = int(input_value)
-        if input_value in [1,2]:
-            return True
-        print('Dej mi číslo mezi 1,2 bro')
-        return False
-    except:
-        print('Dej mi číslo kkt')
-        return False
-        
+from game.constants import *
+
+
+
 def main():
-    game_mode = input('1. Hra s fyzickým kamarádem \n 2. Hra s AI kamarádem \n ')
 
-    while not correct_input(game_mode):
-        game_mode = input('1. Hra s fyzickým kamarádem \n 2. Hra s AI kamarádem \n ')
-
-    if game_mode==1:
-        normal_main()
+    if platform.system() != "Linux":
+        os.environ['SDL_VIDEO_CENTERED'] = '1'
     else:
-        ai_main()
+        os.environ['SDL_VIDEODRIVER'] = 'x11'
+
+    pg.mixer.pre_init(44100, -16, 2, 2048)
+    # Initing pygame
+    pg.init()
+    screen = pg.display.set_mode((WIDTH, HEIGHT),pg.SRCALPHA)
+    pg.display.set_caption(CAPTION)
+    logger.success('Pygame setup')
+
+    manager = pui.UIManager((WIDTH, HEIGHT))
+
+    clock = pg.time.Clock()
+    
+    # dispaly the question and backgroung
+    background = pg.Surface(screen.get_size())
+    background = background.convert()
+    background.fill(TILE_COLOR)
+    screen.blit(background,(0,0))
+
+    font = pg.font.Font(None, 48)
+
+    text_surface = font.render("Vyber si herní mód", True, (255, 255, 255))
+    text_rect = text_surface.get_rect(center=(400, 300))
+    screen.blit(text_surface, text_rect)
+
+    pg.display.flip()
+
+    # choosing the game mode
+    mode_choosen = False
+    should_run = True
+    modes = ['Human vs. Human', 'Human vs. AI']
+    mode = None
+    
+    buttons = [
+            pui.elements.UIButton(relative_rect=pg.Rect((150+i*300, 450), (150, 50)),
+                                             text=text,
+                                             manager=manager) 
+            for i,text in enumerate(modes) ]
+
+
+    while not mode_choosen and should_run :
+
+        time_delta = clock.tick(60)/1000.0
+        for event in pg.event.get():
+            if event.type == pg.QUIT:
+                should_run = False
+
+            if event.type == pui.UI_BUTTON_PRESSED:
+                if event.ui_element in buttons:
+                    mode = buttons.index(event.ui_element)
+                    mode_choosen = True
+
+            manager.process_events(event)
+
+
+        manager.update(time_delta)
+        manager.draw_ui(screen)
+
+        pg.display.update()
+    if mode_choosen:
+        logger.info(f'Byl vybrán mód {modes[mode]}')
+        if mode==0:
+            normal_main(screen)
+        else:
+            ai_main(screen)
+
+
 
 
 
