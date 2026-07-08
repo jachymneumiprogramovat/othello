@@ -14,7 +14,7 @@ Nezbytné balíčky pro spuštěný této hry jsou
  - Loguru
  - tqdm
 ### Spuštění
- Hru spustíte příkazem `python meta_main.py`
+ Hru spustíte příkazem ```python meta_main.py```
 
 ## Hraní
 
