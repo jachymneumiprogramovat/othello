@@ -2,8 +2,8 @@
 import numpy as np
 import math 
 EXPLORATION = math.sqrt(2)
-ROLLOUT_COUNT = 400
-SIMULATION_COUNT = 20
+ROLLOUT_COUNT = 100
+SIMULATION_COUNT = 5
 
 
 DEFAULT_BOARD = np.array([
