@@ -5,21 +5,14 @@ import sys
 import pathlib
 import numpy as np
 
-from constants import *
-from game import Game
-from board import Board
+from random import choice
 
-def main():
+from game.constants import *
+from game.game import Game
+from game.board import Board
+
+def normal_main(screen):
     """Main function"""
-
-    # Initing pygame
-    os.environ['SDL_VIDEO_WINDOW_POS'] = "1100,200"
-    pg.mixer.pre_init(44100, -16, 2, 2048)
-    pg.init()
-    screen = pg.display.set_mode((WIDTH, HEIGHT),pg.SRCALPHA)
-    pg.display.set_caption(CAPTION)
-    logger.success('Pygame setup')
-
     clock = pg.time.Clock()
     running = True
 
@@ -35,18 +28,14 @@ def main():
 
     poss_moves = board.get_possible_moves()
     pg.display.update(game.draw_squares(poss_moves,HIGHLITE_COLOR))
-    logger.info(f'poss_moves')
-
     while running:
         clock.tick(TIKS)
         rects_to_change = []
 
         for event in pg.event.get():
-            # Check quit event
             if event.type == pg.QUIT:
-                logger.info("Quit signal received. Exiting...")
+                logger.info(choice(GOODBYE_MESSAGES))
                 running = False
-            # Check mouse click
             if event.type == pg.MOUSEBUTTONDOWN:
                 logger.debug("Mouse click signal received.")
                 tile_width = WIDTH//100
@@ -65,7 +54,8 @@ def main():
                     continue
 
                 # play the move 
-                tile_to_change = board.play_move(tile)
+                new_board, to_change = board.play_move(tile)
+                board.board=new_board
                 curr_color = WHITE_COLOR if board.player ==-1 else BLACK_COLOR
                 rects_to_change=game.draw_squares(tile_to_change,curr_color)
 
@@ -83,55 +73,5 @@ def main():
                 rects_to_change+=game.draw_squares(poss_moves, TILE_COLOR)
                 rects_to_change+=game.draw_squares(next_poss_moves,HIGHLITE_COLOR)
 
-                logger.info(rects_to_change)
-        pg.display.update(rects_to_change)
-
-
-
-
-
-if __name__ == "__main__":
-    base_dir = pathlib.Path(__file__).parent.resolve()
-    logger.remove()
-    info_filter = lambda record: record["level"].name == "INFO"
-    success_filter = lambda record: record["level"].name == "SUCCESS"
-    error_filter = lambda record: record["level"].name == "ERROR"
-
-    logger.add(
-        os.path.join(base_dir, "main.log"),
-        colorize=True,
-        format="<green>{file}/{function}/{line}</green> <level>{message}</level>",
-        filter=info_filter,
-    )
-    logger.add(
-        sys.stdout,
-        colorize=True,
-        format="<green>{file}/{function}/{line}</green> <level>{message}</level>",
-        filter=info_filter,
-    )
-    logger.add(
-        os.path.join(base_dir, "main.log"),
-        colorize=True,
-        format="<yellow>{file} {message} </yellow>",
-        filter=success_filter
-    )
-    logger.add(
-        sys.stdout, 
-        colorize=True,
-        format="<yellow>{file} {message} </yellow>",
-        filter=success_filter
-    )
-    logger.add(
-        os.path.join(base_dir, "main.log"),
-        colorize=True,
-        format="<red>{file}/{function}/{line} {message}</red>",
-        filter=error_filter,
-    )
-    logger.add(
-        sys.stdout,
-        colorize=True,
-        format="<red>{file}/{function}/{line} {message}</red>",
-        filter=error_filter,
-    )
-    main()
-
+                logger.info(rect_to_change)
+        pg.display.update(rect_to_change)

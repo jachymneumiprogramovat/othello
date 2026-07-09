@@ -1,7 +1,7 @@
 import pygame as pg
 from loguru import logger
-from constants import *
-from stone import Stone
+from game.constants import *
+from game.stone import Stone
 
 
 class Game:
@@ -64,7 +64,7 @@ class Game:
     def draw_squares(self,squares:list[tuple],color:tuple)->list:
         """Draw all the squares provided with color. Returns list of affected
         rects."""
-        logger.info(f'dostal jsem na nakresleni {squares}')
+        logger.debug(f'dostal jsem na nakresleni {squares}')
         affected_rects = []
         for tile in squares:
             coordinates = tuple(reversed([(x+0.5)*self.cell_height for x in tile]))
@@ -74,5 +74,5 @@ class Game:
                     color=color
                     )
                 )
-        logger.info(f'vracim seznam rectu {affected_rects}')
+        logger.debug(f'vracim seznam rectu {affected_rects}')
         return affected_rects
