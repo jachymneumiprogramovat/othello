@@ -19,8 +19,6 @@ from game.board import Board
 from game.game import Game
 from game.constants import *
 
-logger.remove()
-logger.add(sys.stderr, level="ERROR")
 
 mts = MTS()
 def get_mcts_move(board:list,player:int):
