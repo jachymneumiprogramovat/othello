@@ -27,7 +27,7 @@ class Game:
             pg.draw.line(self.screen,BLACK_COLOR,(0,height),(self.width,height),2)
 
     def _draw_stone(self,target:tuple,color:tuple)->pg.Rect:
-        """Draws a stone on target and returns changed rect."""
+        """Draws a stone on target and returns affected rect."""
         stone = Stone(color=color,
                         width=self.cell_width - MARGIN,
                         height=self.cell_height - MARGIN

@@ -24,7 +24,7 @@ class Board:
         logger.info(f'{self.board}',f'{self.stones}')
 
     def _find_anchors(self,tile:tuple[int])->list:
-        """ Finds all the anchors for tile provided and returns them."""
+        """ Finds all the anchors and returns them ."""
 
         anchors = []
         op_player = -self.player
@@ -36,7 +36,7 @@ class Board:
                 continue
 
             for i in range(1,len(self.board)):
-                examined = tuple(a + b*i for a,b in zip(tile,dir))
+                examined = tuple(np.add(tile,tuple(np.array(dir)*i)))
                 try:
                     teritory = self.board[examined]
                 except:
@@ -57,32 +57,34 @@ class Board:
         and returns converted indicies for the Game to draw them. """
 
         # placing the actual stone
-        # tile = tuple(tile) tohle by nemelo byt potreba idk
+        tile = tuple(tile)
         logger.info(f'kliknute policko: {tile}, hrac na tomto policku:{self.board[tuple(tile)]}')
         self.board[tile] = self.player
         self.stones[self.player] +=1
         logger.info(f'pole{self.board}, aktualni hrac na tahu: {self.player}')
-
         # converting stones
         anchors = []
         logger.info(f'mozne tahy: {self.poss_moves}, jejich anchori: {self.poss_anchors}')
+        # for poss_move in self.poss_moves[self.player]:
+            # logger.info(f'chci tah pro pozici:{tile} a koukam na tah pro pozici: {poss_move[0]} jeho anchory jsou {poss_move[1:][0]}')
+        #    if poss_move[0]==tile:
+        #        anchors = poss_move[1:][0]
         anchor_index = self.poss_moves[self.player].index(tile)
         anchors = self.poss_anchors[self.player][anchor_index]
         if not anchors:
-            logger.error('Alegedly possible tile without anchors, wtf')
+            logger.info('Alegedly possible tile without anchors, wtf')
         logger.info(f'anchori jsou {anchors}')
 
         converted = []
         for anchor in anchors:
-            difference = tuple(a-b for a,b in zip(anchor,tile))
+            difference = tuple(anchor[i]-tile[i] for i in range(2))
             distance = max([abs(x) for x in difference])
-            direction = tuple(a//b for a,b in zip(difference,distance))
-
+            direction = tuple(np.array(difference)//distance)
             logger.info(f'difference:{difference},distanece:{distance},direction:{direction}')
 
             for i in range(1,distance):
                 vzdalenost = tuple(int(x)*i for x in direction)
-                looking_at = tuple(a+b for a,b in zip(tile,vzdalenost))
+                looking_at = tuple(np.add(tile,vzdalenost))
 
                 converted.append(looking_at)
                 logger.info(f'konvertoval jsem {looking_at}')
