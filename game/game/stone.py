@@ -1,5 +1,5 @@
 import pygame as pg
-from constants import *
+from game.constants import *
 
 class Stone(pg.sprite.Sprite):
     """Class for the stone object"""

@@ -11,3 +11,5 @@ HIGHLITE_COLOR = (239, 255, 5, 128)
 
 WHITE_COLOR = (200,200,200)
 BLACK_COLOR = (0,0,0)
+
+GOODBYE_MESSAGES = ['To aspoň dohraju ne?','Trapáku','Imagine ragequitnout u othella','čus']
