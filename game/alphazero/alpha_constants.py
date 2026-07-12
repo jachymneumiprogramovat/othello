@@ -1,0 +1,8 @@
+
+NUM_HIDDEN = 3
+NUM_CHANNELS = 128
+rows = 8
+cols = 8
+INPUT_CHANNELS = 2
+
+EXPLORATION = 1

@@ -161,7 +161,7 @@ class Board:
             poss_moves[i]=1
         self.poss_moves[self.player] = poss_moves
         logger.debug(f'{self.poss_moves[self.player]}')
-        return poss_index
+        return poss_moves
 
     def is_game_over(self):
         """Determins if the game is over. Either because one player does not
