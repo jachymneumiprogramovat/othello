@@ -27,7 +27,7 @@ class MTSNode(Board):
         if self.visited == 0:
             logger.error('I tried to calculate score for a node without visits.')
             return None
-        return self.results[-1]/self.visited + EXPLORATION*math.sqrt((parent_value/self.visited))
+        return self.results[self.player]/self.visited + EXPLORATION*math.sqrt((parent_value/self.visited))
 
     def _count_stones(self):
         """Counts the stone from the board so it can be intialized nontriviali
