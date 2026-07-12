@@ -6,133 +6,162 @@ from copy import deepcopy
 class Board:
     """Class for handeling the logic behind the game"""
     def __init__(self):
-        self.board = np.array([[0 for _ in range(8)] for _ in range(8)])
+        self.board = [None, np.zeros(64), np.zeros(64)]
         self.player = 1
-        self.dirs = [(1,0),(0,1),(-1,0),(0,-1),(1,1),(1,-1),(-1,-1),(-1,1)]
+        self.dirs = [1,-1,8,-8,7,-7,9,-9]
 
         self.stones = [0, 0,0]
         self.poss_moves = [0, [], []] #na indexu hrace je seznam moznych tahu
-        self.poss_anchors = [None, [], []]
 
+    def __repr__(self)->str:
+        repr=[]
+        for i in range(64):
+            if self.board[1][i]:
+                repr.append(' 1')
+            elif self.board[-1][i]:
+                repr.append('-1')
+            else:
+                repr.append(' 0')
+        repr_string = ''
+        for i in range(8):
+            repr_string+= ' '.join(repr[i*8:(i+1)*8])
+            repr_string+='\n'
+        return repr_string
     def setup_board(self):
-        self.board = np.array([
-            [ 0,  0,  0,  0,  0,  0,  0,  0],
-            [ 0,  0,  0,  0,  0,  0,  0,  0],
-            [ 0,  0,  0,  0,  0,  0,  0,  0],
-            [ 0,  0,  0,  0,  0,  0,  0,  0],
-            [ 0,  0,  0,  0,  0,  0,  0,  0],
-            [ 0,  0,  0,  0,  0,  0,  0,  0],
-            [ 0,  0,  0,  0,  0,  0,  0,  0],
-            [ 0,  0,  0,  0,  0,  0,  0,  0]
-            ])
-        self.board[3][3]=-1
-        self.board[4][4]=-1
+        """Prepares the board for a new game."""
+        self.player=1
+
+        self.board = [None, np.zeros(64), np.zeros(64)]
+        self.board[-1][3*8 + 3] = 1
+        self.board[-1][4*8+4]=1
         self.stones[-1] =2
 
-        self.board[3][4]=1
-        self.board[4][3]=1
+        self.board[1][3*8+4]=1
+        self.board[1][4*8+3]=1
         self.stones[1] =2
 
-        self.poss_moves = [0, [(2, 3), (3, 2), (4, 5), (5, 4)], []]
-        self.poss_anchors = [None, [[(np.int64(4), np.int64(3))],
-                                    [(np.int64(3), np.int64(4))],
-                                    [(np.int64(4), np.int64(3))],
-                                    [(np.int64(3), np.int64(4))]], []]
+        #one large board with ones where the player can move
+        self.poss_moves = [0, np.zeros(64), np.zeros(64)]
 
-    def _find_anchors(self,tile:tuple[int])->list:
-        """ Finds all the anchors and returns them ."""
+        #setting up the initial possible moves
+        for i in [19,26,37,44]:
+            self.poss_moves[1][i] =1
 
-        anchors = []
+        # no anchors in this version the play_move function has to find them on
+        # its own
+    def _valid_neighbor(self,index1,index2)->bool:
+        if 0>index1 or index1>=64:
+            return False
+        if 0>index2 or index2>=64:
+            return False
+        if abs(index1//8 -index2//8)>1 or abs(index1%8 - index2%8)>1:
+            return False
+        return True
+
+
+
+    def _has_anchors(self,index:int)->bool:
+        """ Checks if index has an anchor and returns the truth value of that
+        statement ."""
+
         op_player = -self.player
-        x,y = tile
-        for dx,dy in self.dirs:
-            nx,ny = x+dx, y+dy
-            if not(0<=nx<8 and 0<=ny<8):
-                continue
-            
-            if self.board[nx, ny] != op_player:
+        for dir in self.dirs:
+            nindex = dir+index
+            if not self._valid_neighbor(nindex,index):
                 continue
 
-            curr_x, curr_y = nx + dx, ny + dy
+            if not self.board[op_player][nindex]: # op tam nema kamen - ma tam nulu
+                continue
 
-            while 0 <= curr_x < 8 and 0 <= curr_y < 8:
-                territory = self.board[curr_x, curr_y]
+            it_index = nindex
+            while True:
+                enemy_stone = self.board[op_player][it_index]
+                my_stone = self.board[self.player][it_index]
 
-                if territory == self.player:
-                    anchors.append((curr_x, curr_y))
+                if enemy_stone:
+                    pass
+                elif my_stone:
+                    return True
+                else:
                     break
-                elif territory == 0:
-                    break
-                    
-                # If it's another opponent stone, keep moving in the same direction
-                curr_x += dx
-                curr_y += dy                  
-        return anchors
 
-    def play_move(self,tile:tuple[int]):
+                if not self._valid_neighbor(it_index,it_index+dir):
+                    break
+                it_index += dir
+        return False
+
+    def play_move(self,index:int)->tuple[list]:
         """ Returns a new board with the move played and the tiles that
         changed. """
 
-        board = np.array(deepcopy(self.board))
+        board = deepcopy(self.board)
 
         # placing the actual stone
-        tile = tuple(tile)
-        logger.debug(f'kliknute policko: {tile}, hrac na tomto policku:{board[tuple(tile)]}')
-        board[tile] = self.player
+        logger.debug(f'kliknute policko: {index}')
+        board[self.player][index] =1
+
         self.stones[self.player] +=1
-        # converting stones
-        anchors = []
-        logger.debug(f'mozne tahy: {self.poss_moves}, jejich anchori: {self.poss_anchors}')
 
-        if tile not in self.poss_moves[self.player]:
-            logger.error(f'tah {tile} neni v moznych tazich, idk jak se tohle deje kamo')
-        anchor_index = self.poss_moves[self.player].index(tile)
-        anchors = self.poss_anchors[self.player][anchor_index]
-        if not anchors:
-            logger.error('Alegedly possible tile without anchors, wtf')
-        logger.debug(f'anchori jsou {anchors}')
 
-        converted = []
-        for anchor in anchors:
-            difference = tuple(anchor[i]-tile[i] for i in range(2))
-            distance = max([abs(x) for x in difference])
-            direction = tuple(np.array(difference)//distance) # normalizing
-            logger.debug(f'difference:{difference},distanece:{distance},direction:{direction}')
+        if not self.poss_moves[self.player][index]:
+            logger.error(f'tah na {index} neni v moznych tazich, idk jak se tohle deje kamo')
+        changed = []
+        op_player = -self.player
+        for dir in self.dirs:
+            nindex = dir+index
+            if not self._valid_neighbor(nindex,index):
+                continue
+            
+            if not self.board[op_player][nindex]: # op tam nema kamen - ma tam nulu
+                continue
+            logger.debug(f'nasel jsem opa na {nindex}')
 
-            for i in range(1,distance):
-                vzdalenost = tuple(int(x)*i for x in direction)
-                looking_at = tuple(np.add(tile,vzdalenost))
+            it_index = nindex
+            to_convert = []
+            while True:
+                enemy_stone = self.board[op_player][it_index]
+                my_stone = self.board[self.player][it_index]
 
-                converted.append(looking_at)
-                logger.debug(f'konvertoval jsem {looking_at}')
-                board[looking_at] *= -1
-                self.stones[self.player]+=1
-                self.stones[-self.player]-=1
-                logger.debug(f'bily ma {self.stones[-1]} kamenu a cerny ma {self.stones[1]} kamenu')
+                if enemy_stone:
+                    logger.debug(f'enemy stone on {it_index}')
+                    to_convert.append(it_index)
+                
+                elif my_stone:
+                    logger.debug(f'my stone on {it_index},{dir},{to_convert}')
+                    changed.append(to_convert)
+                    for i in to_convert:
+                        logger.debug(f'konvertuju {i}')
+                        board[op_player][i] = 0
+                        board[self.player][i] = 1
 
-                if board[looking_at] == 0:
-                    logger.error('There should always be stone between tile and anchor')
-        converted.append(tile)
-        logger.debug(f'pole{board}, aktualni hrac na tahu: {self.player}')
-        return (board,converted)
+                        self.stones[self.player] += 1
+                        self.stones[op_player] -= 1
+                    break
+                else:
+                    break
+
+                if not self._valid_neighbor(it_index,it_index+dir):
+                    break
+                it_index += dir
+        return (board,changed)
 
     def get_possible_moves(self):
         """ Overwrites and returns list of possible moves for the current player """
 
-        poss_moves = []
-        all_anchors = []
-        for row in range(len(self.board)):
-            for column in range(len(self.board[row])):
-                tile = (row,column)
-                if self.board[tile]!=0:
-                    continue
-                anchors = self._find_anchors(tile)
-                if anchors:
-                    poss_moves.append(tile)
-                    all_anchors.append(anchors)
-        self.poss_moves[self.player] = deepcopy(poss_moves)
-        self.poss_anchors[self.player] = all_anchors
-        return poss_moves
+        poss_index = []
+        for index in range(64):
+            if self.board[self.player][index] or self.board[-self.player][index]:
+                continue
+            if self._has_anchors(index):
+                poss_index.append(index)
+
+        poss_moves = np.zeros(64)
+        logger.debug(f'mozne indexy jsou {poss_index}')
+        for i in poss_index:
+            poss_moves[i]=1
+        self.poss_moves[self.player] = poss_moves
+        logger.debug(f'{self.poss_moves[self.player]}')
+        return poss_index
 
     def is_game_over(self):
         """Determins if the game is over. Either because one player does not
