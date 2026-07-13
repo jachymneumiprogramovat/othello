@@ -35,13 +35,16 @@ class State(Board):
     def _count_stones(self):
         """Counts the stone from the board so it can be intialized nontriviali
         and the counts are still accurate."""
-        for row in self.board:
-            for tile in row:
-                self.stones[tile]+=1 #no one cares about the zeroth spot.
+        for tile in self.board[1]:
+            if tile:
+                self.stones[1]+=1 #no one cares about the zeroth spot.
+        for tile in self.board[-1]:
+            if tile:
+                self.stones[-1]+=1
 
     def get_ucb(self,parent_value:float):
         """Calculate the UCB for a given child node."""
-        if self.visit_count == 0:
+        if self.visited == 0:
             q_value = 0
         else:
             q_value = 1 - ((self.value_sum / self.visited) + 1) / 2
@@ -50,16 +53,19 @@ class State(Board):
             q_value
             + EXPLORATION
             * (np.sqrt(parent_value) / (self.visited + 1))
-            * self.prior
+            * self.prob
         )
         return ucb
+    def is_expanded(self):
+        return len(self.children)>0
 
     def get_children(self):
-        for tile in self.poss_moves:
+
+        for index,tile in enumerate(self.get_possible_moves()):
             if tile:
                 poss_move = np.zeros(64)
-                poss_move[tile] = 1
-                new_board,_ = self.play_move(poss_move)
+                poss_move[index] = 1
+                new_board,_ = self.play_move(index)
                 children = State(board = new_board,player=-self.player, move = poss_move)
                 self.children.append(children)
         return self.children

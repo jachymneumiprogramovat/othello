@@ -2,7 +2,7 @@ import torch
 from torch import nn
 import torch.nn.functional as F
 
-from alpha_constants import *
+from alphazero.alpha_constants import *
 
 class HiddenLayer(nn.Module):
     def __init__(self,num_channels:int):

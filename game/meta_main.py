@@ -145,4 +145,5 @@ if __name__ == "__main__":
         format="<green>{file}/{function}/{line} {message}</green>",
         filter=debug_filter,
     )
+    logger.remove()
     main()

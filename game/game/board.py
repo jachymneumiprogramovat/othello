@@ -159,8 +159,15 @@ class Board:
         logger.debug(f'mozne indexy jsou {poss_index}')
         for i in poss_index:
             poss_moves[i]=1
+
+        if np.sum(poss_moves)==0:
+            poss_moves = np.append(poss_moves,1)
+        else:
+            poss_moves = np.append(poss_moves,0)
+
         self.poss_moves[self.player] = poss_moves
-        logger.debug(f'{self.poss_moves[self.player]}')
+        logger.debug(f'{self.poss_moves[self.player]}, {len(self.poss_moves[self.player])}')
+
         return poss_moves
 
     def is_game_over(self):
@@ -170,9 +177,10 @@ class Board:
         if not self._stones_left():
             return True
         
-        if not self.poss_moves[1] and not self.poss_moves[-1]:
-            if self.stones[1] + self.stones[-1] != 4:
-                return True
+        if not np.sum(self.poss_moves[1])-self.poss_moves[1][64]:
+            if not np.sum(self.poss_moves[-1])-self.poss_moves[-1][64]:
+                if self.stones[1] + self.stones[-1] != 4:
+                    return True
         return False
 
     def determine_winner(self):
