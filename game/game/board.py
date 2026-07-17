@@ -94,10 +94,15 @@ class Board:
         """ Returns a new board with the move played and the tiles that
         changed. """
 
+
         board = deepcopy(self.board)
 
+        # skip the turn
+        if index == 64:
+            logger.info('lowkye skipuju tah')
+            return (board,[])
+
         # placing the actual stone
-        logger.debug(f'kliknute policko: {index}')
         board[self.player][index] =1
 
         self.stones[self.player] +=1
@@ -114,7 +119,6 @@ class Board:
             
             if not self.board[op_player][nindex]: # op tam nema kamen - ma tam nulu
                 continue
-            logger.debug(f'nasel jsem opa na {nindex}')
 
             it_index = nindex
             to_convert = []
@@ -123,14 +127,11 @@ class Board:
                 my_stone = self.board[self.player][it_index]
 
                 if enemy_stone:
-                    logger.debug(f'enemy stone on {it_index}')
                     to_convert.append(it_index)
                 
                 elif my_stone:
-                    logger.debug(f'my stone on {it_index},{dir},{to_convert}')
                     changed.append(to_convert)
                     for i in to_convert:
-                        logger.debug(f'konvertuju {i}')
                         board[op_player][i] = 0
                         board[self.player][i] = 1
 
@@ -156,17 +157,10 @@ class Board:
                 poss_index.append(index)
 
         poss_moves = np.zeros(64)
-        logger.debug(f'mozne indexy jsou {poss_index}')
         for i in poss_index:
             poss_moves[i]=1
 
-        if np.sum(poss_moves)==0:
-            poss_moves = np.append(poss_moves,1)
-        else:
-            poss_moves = np.append(poss_moves,0)
-
         self.poss_moves[self.player] = poss_moves
-        logger.debug(f'{self.poss_moves[self.player]}, {len(self.poss_moves[self.player])}')
 
         return poss_moves
 
@@ -176,12 +170,15 @@ class Board:
 
         if not self._stones_left():
             return True
-        
-        if not np.sum(self.poss_moves[1])-self.poss_moves[1][64]:
-            if not np.sum(self.poss_moves[-1])-self.poss_moves[-1][64]:
-                if self.stones[1] + self.stones[-1] != 4:
-                    return True
-        return False
+
+        current_player = self.player
+        self.player = 1
+        moves_1 = self.get_possible_moves()
+        self.player = -1
+        moves_neg1 = self.get_possible_moves()
+        self.player = current_player
+
+        return not (np.sum(moves_1) or np.sum(moves_neg1))
 
     def determine_winner(self):
         """Checks the number of stones left and return the number of winning
@@ -196,9 +193,9 @@ class Board:
     def _stones_left(self):
         """Checks if any player is out of stones"""
 
-        if not self.stones[1]:
+        if not np.sum(self.board[1]):
             return False
-        if not self.stones[-1]:
+        if not np.sum(self.board[-1]):
             return False
         return True
 

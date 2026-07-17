@@ -1,5 +1,6 @@
 import numpy as np
 import torch
+from tqdm import tqdm
 from collections import defaultdict
 
 from ai.mts import MTS
@@ -28,21 +29,21 @@ class AMCTS():
     def model_quessing(self,node:State):
         """Asks the model for its opinion and tell him which moves are possible"""
         if node.is_game_over():
-            return node.determine_winner()
+            return np.zeros(64, dtype=np.float32), float(node.determine_winner())
 
-        stacked = np.stack([node.board[1],node.board[-1]], axis=0)
+        stacked = np.stack([node.board[1], node.board[-1]], axis=0).astype(np.float32)
         batched = stacked[np.newaxis, ...]
-        model_input = torch.tensor(batched, dtype=torch.float32, device=self.model.device)
+        
+        model_input = torch.from_numpy(batched).to(self.model.device)
 
-        policies,value =  self.model(model_input)
+        with torch.inference_mode():
+            policies, value = self.model(model_input)
+            policies = torch.softmax(policies[0]).cpu().numpy()  
+            value = value.item()                 
+
         poss_moves = node.get_possible_moves()
-        poss_moves = torch.from_numpy(poss_moves)
-
-        logger.debug(f' co se deje kurva doprdele {len(policies)},{len(poss_moves)}')
-        valid_policies = torch.multiply(policies, poss_moves)
-        logger.debug(valid_policies)
-        valid_policies/= torch.sum(valid_policies)
-
+        valid_policies = policies * poss_moves
+        valid_policies/= np.sum(valid_policies)
 
         return valid_policies,value
 
@@ -50,7 +51,7 @@ class AMCTS():
         children = node.get_children()
         return children
 
-    def back_propagate(self,path:list[State], value: int):
+    def back_propagate(self,path:list[State], value: float):
         for node in path:
             node.total_value += value
             node.visited += 1
@@ -59,10 +60,8 @@ class AMCTS():
 
     def select(self,node:State):
         path = []
-        logger.info(f'selectuju z rootu {node}')
         while True:
             path.append(node)
-            logger.info(f'{path}')
             if not node.is_expanded():
                 return path
             if node.is_game_over():
@@ -73,17 +72,13 @@ class AMCTS():
         """Performs the selection, expansion, model quessing and back
         propagation from node once."""
         path = self.select(root)
-        logger.debug(f'cesta k vrcholu je f{[x for x in path]}')
         leaf = path[-1]
-        logger.debug(f'listem je MTSNode s boardem {leaf}')
         new_layer = self.expand(leaf)
-        logger.debug(f'jeho syny jsou {[x for x in new_layer]}')
         policies, value = self.model_quessing(leaf)
+        policies = policies[0]
 
-        logger.debug(f'policie {[x for x in policies]}, deti {new_layer}')
-        for polici, child in zip(policies,new_layer):
-            child.prob = polici
-        logger.debug(f'synove listu jsou {[x.board for x in leaf.children]}')
+        for child in new_layer:
+            child.prob = np.sum(child.move * policies)
         self.back_propagate(path,value)
 
     def calculate_probs(self,node:State,temperature:float)->list:
@@ -91,18 +86,16 @@ class AMCTS():
         child.visited / node.visited
         """
         # calculating the \pi values
-        probs = defaultdict(int)
-        for child in node.children:
-            probs[child.move] += child.visited
         visited_sum = sum(child.visited for child in node.children)
 
-        for child in node.children:
-            probs[child.move] /= visited_sum
+        prob_vector = sum(child.move*(child.visited/visited_sum) for child in node.children)
 
-        prob_vector = sum(move*prob for move,prob in probs.items())
-        print(prob_vector,"mel by to byt proste 1d vektor")
+        for i in range(len(prob_vector)):
+            if prob_vector[i] <0:
+                prob_vector[i] = 0
+        prob_vector /= np.sum(prob_vector)
 
-        prob_vector = prob_vector ** 1/temperature
+        prob_vector = prob_vector ** (1/temperature)
         prob_vector /= np.sum(prob_vector)
 
         return prob_vector
@@ -112,6 +105,16 @@ class AMCTS():
         """ Iterates the rollout function and then chooses the best next move. """
         for _ in range(ROLLOUT_COUNT):
             self.rollout(root)
-        poss_moves = sum(child.move for child in root.children)
         probs = self.calculate_probs(root,TEMPERATURE)
-        return (np.random.choice(poss_moves, p=probs),probs)
+        tile_index = np.random.choice(range(64), p=probs)
+        new_move = np.zeros(64)
+        new_move[tile_index] = 1
+
+        new_node = None
+        for child in root.children:
+            if np.array_equal(child.move, new_move):
+                new_node = child
+        if not new_node:
+            logger.error(f'nenasel jsem tah {new_move} wtf')
+
+        return (new_node,probs)

@@ -5,19 +5,17 @@ NUM_CHANNELS = 128
 rows = 8
 cols = 8
 INPUT_CHANNELS = 2
+DEVICE = 'cpu'
 
 EXPLORATION = 1
 
 TEMPERATURE = 1
 
-DEFAULT_BOARD = np.array([
-  0,  0,  0,  0,  0,  0,  0,  0,
-  0,  0,  0,  0,  0,  0,  0,  0,
-  0,  0,  0,  0,  0,  0,  0,  0,
-  0,  0,  0, -1,  1,  0,  0,  0,
-  0,  0,  0,  1, -1,  0,  0,  0,
-  0,  0,  0,  0,  0,  0,  0,  0,
-  0,  0,  0,  0,  0,  0,  0,  0,
-  0,  0,  0,  0,  0,  0,  0,  0])
+DEFAULT_BOARD = [None, np.zeros(64), np.zeros(64)]
+DEFAULT_BOARD[-1][3*8 + 3] = 1
+DEFAULT_BOARD[-1][4*8+4]=1
 
-ROLLOUT_COUNT = 100
+DEFAULT_BOARD[1][3*8+4]=1
+DEFAULT_BOARD[1][4*8+3]=1
+
+ROLLOUT_COUNT = 10

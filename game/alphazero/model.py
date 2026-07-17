@@ -77,7 +77,7 @@ class Model(nn.Module):
             [HiddenLayer(num_channels) for _ in range(num_hidden)]
         )
 
-        self.policy_head = PolicyHead(num_channels, (rows*cols)+1) # wholle board plus skip
+        self.policy_head = PolicyHead(num_channels, rows*cols) # no skipping
         self.score_head = ScoreHead(num_channels)
 
         self.to(device)

@@ -47,7 +47,7 @@ class State(Board):
         if self.visited == 0:
             q_value = 0
         else:
-            q_value = 1 - ((self.value_sum / self.visited) + 1) / 2
+            q_value = 1 - ((self.total_value / self.visited) + 1) / 2
 
         ucb = (
             q_value
@@ -60,7 +60,7 @@ class State(Board):
         return len(self.children)>0
 
     def get_children(self):
-
+        
         for index,tile in enumerate(self.get_possible_moves()):
             if tile:
                 poss_move = np.zeros(64)
