@@ -76,3 +76,30 @@ class Game:
                 )
         logger.debug(f'vracim seznam rectu {affected_rects}')
         return affected_rects
+    
+    def award_winner(self,winner:int,white_stones:int,black_stones:int):
+        """ Prints the score and who won on the screen in a pretty little box. """
+        big_font = pg.font.SysFont(None, 64)
+        small_font = pg.font.SysFont(None, 32)
+
+        container_rect = pg.Rect(150, 150, 500, 250)
+        vyherce = 'Bílý' if winner == 1 else 'černý'
+        title_surf = big_font.render(f"Vyhrál hráč {vyherce}", True, (255, 255, 255))
+        left_surf = small_font.render(f"Bílý mý {white_stones} kamenů", True, (200, 255, 200))
+        right_surf = small_font.render(f"černý má {black_stones} kamenů", True, (255, 200, 200))
+
+        title_rect = title_surf.get_rect()
+        title_rect.midtop = (container_rect.centerx, container_rect.top + 20)
+
+        left_rect = left_surf.get_rect()
+        left_rect.midbottom = (container_rect.left + (container_rect.width // 4), container_rect.bottom - 40)
+
+        right_rect = right_surf.get_rect()
+        right_rect.midbottom = (container_rect.right - (container_rect.width // 4), container_rect.bottom - 40)
+        pg.draw.rect(self.screen, (60, 70, 90), container_rect, border_radius=15)
+        
+        pg.draw.rect(self.screen, (100, 120, 150), container_rect, width=3, border_radius=15)
+
+        self.screen.blit(title_surf, title_rect)
+        self.screen.blit(left_surf, left_rect)
+        self.screen.blit(right_surf, right_rect)

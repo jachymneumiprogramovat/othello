@@ -34,6 +34,17 @@ def normal_main(screen):
     while running:
         clock.tick(TIKS)
         rect_to_change = []
+        poss_moves = board.get_possible_moves()
+            
+        if not poss_moves:
+            if board.is_game_over():
+                winner = board.determine_winner()
+                logger.info(f'Hru vyhrává hráč {winner}')
+                break
+            else:
+                logger.info(f'Hráč {board.player} nemá tahy, skipuju.')
+                board.player *= -1
+                continue 
 
         for event in pg.event.get():
             if event.type == pg.QUIT:
@@ -59,8 +70,6 @@ def normal_main(screen):
 
                 #check for end of the game
                 if board.is_game_over():
-                    winner = board.determine_winner()
-                    logger.info(f'game won by player {winner}')
                     break
 
                 #prepare board for next turn
@@ -73,3 +82,13 @@ def normal_main(screen):
 
                 logger.info(rect_to_change)
         pg.display.update(rect_to_change)
+    if board.is_game_over():
+        winner = board.determine_winner()
+        game.award_winner(winner,board.stones[1],board.stones[-1])
+        pg.display.flip()
+        running = True
+        while running:
+            for event in pg.event.get():
+                if event.type == pg.QUIT:
+                    logger.info(choice(GOODBYE_MESSAGES))
+                    running = False
