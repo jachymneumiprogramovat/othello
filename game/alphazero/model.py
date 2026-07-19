@@ -9,16 +9,9 @@ class HiddenLayer(nn.Module):
         super().__init__()
         self.conv1 = nn.Conv1d(num_channels, num_channels, kernel_size=3, padding=1)
         self.bn1 = nn.BatchNorm1d(num_channels)
-        self.conv2 = nn.Conv1d(num_channels, num_channels, kernel_size=3, padding=1)
-        self.bn2 = nn.BatchNorm1d(num_channels)
 
     def forward(self, x):
-        residual = x
         x = F.relu(self.bn1(self.conv1(x)))
-        x = self.bn2(self.conv2(x))
-        x += residual
-        x = F.relu(x)
-
         return x
 
 

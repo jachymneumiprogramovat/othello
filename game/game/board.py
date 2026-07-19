@@ -159,10 +159,8 @@ class Board:
     def is_game_over(self):
         """Determins if the game is over. Either because one player does not
         have stones or both are impotent."""
-        logger.info(f'\n{self}')
 
         if self.stones[1]==0 or self.stones[-1] == 0:
-            logger.info(f'nekdo nema sutry \n{self} sutry jsou {self.stones}')
             return True
         
 
@@ -170,21 +168,9 @@ class Board:
             return False
 
         if self.stones[1]+self.stones[-1] ==64:
-            logger.info(f'board je plny a kameny jsou {self.stones}')
-            logger.info(f'kameny by meli byt {np.sum(self.board[1]),np.sum(self.board[-1])}')
-            logger.info(f'board ve skutecnosti je \n{self}')
-            sys.exit()
-            return True
-
-        if not np.any(self.poss_moves[self.player]) and not np.any(self.parent.poss_moves[-self.player]):
-            logger.info(f'ja board \n{self}\n mam tahy {self.poss_moves} a muj otec je {self.parent}')
-            logger.info(f'{self.poss_moves[self.player],self.parent.poss_moves[-self.player]}')
-            logger.info(f'ja jsem hrac {self.player}, muj otec je {self.parent.player}')
-            sys.exit()
             return True
 
         if np.array_equal(self.board,self.parent.board) and not np.any(self.poss_moves[self.player]):
-            logger.info(f'uz jsem skipnul a nemuzu nic delat')
             return True
         return False
 

@@ -27,8 +27,6 @@ class AlphaZero():
         turn = 0  
         passed = 0
         while not node.is_game_over():
-            logger.info(f'------ tah {turn} -----')
-            logger.info(f'toto je stav \n{node} skoncila hra uz? {node.is_game_over()}')
             # logger.info(f'toto jsou mozne tahy:')
             # logger.info(f'{node.poss_moves},{node.player}')
             # pretty_print([0,node.poss_moves[node.player],np.zeros(64)])
@@ -36,17 +34,17 @@ class AlphaZero():
             turn+=1
 
             if turn >100:
-                logger.error(f'hra je ve stavu \n{node} a trva vic nez 100 tahu')
+                # logger.error(f'hra je ve stavu \n{node} a trva vic nez 100 tahu')
                 break
 
             #no moves so skipping the turn
             poss_moves = node.poss_moves[node.player]
             if passed ==2:
-                logger.info(f'uz jsem dvakrat passnul ve stavu {node}')
+                # logger.info(f'uz jsem dvakrat passnul ve stavu {node}')
                 break
 
             if not np.any(poss_moves):
-                logger.info(f'skipuju za boardu \n{node} jako hrac {node.player} a moje tahy jsou {node.poss_moves}')
+                # logger.info(f'skipuju za boardu \n{node} jako hrac {node.player} a moje tahy jsou {node.poss_moves}')
                 passed +=1
                 new_node=State(board=deepcopy(node.board),player=-node.player,parent=node,move=np.zeros(64))   # pass the turn
                 node = new_node
@@ -61,6 +59,7 @@ class AlphaZero():
 
 
         winner = node.determine_winner()
+        logger.info(f'hra skoncila stavem {node}')
         for i in range(len(game_memory)):
             game_memory[i] = (*game_memory[i],winner)
 
