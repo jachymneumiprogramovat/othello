@@ -30,9 +30,9 @@ class PolicyHead(nn.Module):
 
     def __init__(self, num_channels: int, action_size: int):
         super().__init__()
-        self.conv = nn.Conv1d(num_channels, 32, kernel_size=3, padding=1)
-        self.bn = nn.BatchNorm1d(32)
-        self.fc = nn.Linear(32 * rows * cols, action_size)
+        self.conv = nn.Conv1d(num_channels, 2, kernel_size=3, padding=1)
+        self.bn = nn.BatchNorm1d(2)
+        self.fc = nn.Linear(2 * rows * cols, action_size)
 
     def forward(self, x):
         x = F.relu(self.bn(self.conv(x)))
@@ -47,9 +47,9 @@ class ScoreHead(nn.Module):
 
     def __init__(self, num_channels: int):
         super().__init__()
-        self.conv = nn.Conv1d(num_channels, 3, kernel_size=3, padding=1)
-        self.bn = nn.BatchNorm1d(3)
-        self.fc = nn.Linear(3 * rows * cols, 1)
+        self.conv = nn.Conv1d(num_channels, 1, kernel_size=3, padding=1)
+        self.bn = nn.BatchNorm1d(1)
+        self.fc = nn.Linear(rows * cols, 1)
 
     def forward(self, x):
         x = F.relu(self.bn(self.conv(x)))

@@ -55,12 +55,12 @@ logger.add(
 #     format="<green>{file}/{function}/{line} {message}</green>",
 #     filter=debug_filter,
 # )
-# logger.add(
-#     sys.stdout,
-#     colorize=True,
-#     format="<green>{file}/{function}/{line} {message}</green>",
-#     filter=debug_filter,
-# )
+logger.add(
+    sys.stdout,
+    colorize=True,
+    format="<green>{file}/{function}/{line} {message}</green>",
+    filter=debug_filter,
+)
 
 
 from alphazero.alpha_mcts import AMCTS
@@ -77,12 +77,12 @@ board[1][3*8+4]=1
 board[1][4*8+3]=1
 
 
-model = Model(num_channels=128,num_hidden=3,device='cpu')
+model = Model(num_channels=NUM_CHANNELS,num_hidden=NUM_HIDDEN,device='cpu')
 
-root = State(board=board,player=1,move=None)
+root = State(board=board,player=1,move=None,parent=None)
 
 alphazero = AlphaZero(model=model)
 
-for _ in tqdm(range(1)):
+for _ in tqdm(range(10)):
     alphazero.selfplay()
 

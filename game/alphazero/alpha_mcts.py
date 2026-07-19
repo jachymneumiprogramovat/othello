@@ -11,13 +11,15 @@ from alphazero.state import State
 from alphazero.alpha_constants import *
 
 from loguru import logger
+import torch
 
 class AMCTS():
     """ Special version os MCTS algorithm for alpha zero. """
     def __init__(self,model:Model):
         self.model = model
 
-        
+
+    @torch.no_grad()
     def select_best_child(self,node:State):
         """Either the one with default rating value or the one with the biggest
         one."""
@@ -33,15 +35,18 @@ class AMCTS():
 
         stacked = np.stack([node.board[1], node.board[-1]], axis=0).astype(np.float32)
         batched = stacked[np.newaxis, ...]
-        
+
         model_input = torch.from_numpy(batched).to(self.model.device)
 
         with torch.inference_mode():
             policies, value = self.model(model_input)
-            policies = torch.softmax(policies[0]).cpu().numpy()  
-            value = value.item()                 
+            policies = torch.softmax(policies[0],0,dtype=torch.float32).cpu().numpy()
+            value = value.item()
 
-        poss_moves = node.get_possible_moves()
+        policies = (1 - EPSILON) + EPSILON * np.random.dirichlet([ALPHA] * 64, size=64)
+
+
+        poss_moves = node.poss_moves[node.player]
         valid_policies = policies * poss_moves
         valid_policies/= np.sum(valid_policies)
 
@@ -73,13 +78,18 @@ class AMCTS():
         propagation from node once."""
         path = self.select(root)
         leaf = path[-1]
+        if leaf.is_game_over():
+            self.back_propagate(path,leaf.determine_winner())
         new_layer = self.expand(leaf)
         policies, value = self.model_quessing(leaf)
         policies = policies[0]
 
         for child in new_layer:
             child.prob = np.sum(child.move * policies)
-        self.back_propagate(path,value)
+        if not new_layer:
+            self.back_propagate(path,value)
+        else:
+            self.back_propagate(path+[new_layer[0]],value)
 
     def calculate_probs(self,node:State,temperature:float)->list:
         """Calculates the \pi value for all children of `node. 
@@ -87,7 +97,7 @@ class AMCTS():
         """
         # calculating the \pi values
         visited_sum = sum(child.visited for child in node.children)
-
+        
         prob_vector = sum(child.move*(child.visited/visited_sum) for child in node.children)
 
         for i in range(len(prob_vector)):

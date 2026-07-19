@@ -2,16 +2,20 @@ from game.constants import *
 from loguru import logger
 import numpy  as np
 from copy import deepcopy
+import sys
 
 class Board:
     """Class for handeling the logic behind the game"""
-    def __init__(self):
+    def __init__(self,parent:'Board'):
         self.board = [None, np.zeros(64), np.zeros(64)]
         self.player = 1
         self.dirs = [1,-1,8,-8,7,-7,9,-9]
 
         self.stones = [0, 0,0]
         self.poss_moves = [0, [], []] #na indexu hrace je seznam moznych tahu
+
+        self.parent = parent
+
 
     def __repr__(self)->str:
         repr=[]
@@ -94,19 +98,10 @@ class Board:
         """ Returns a new board with the move played and the tiles that
         changed. """
 
-
         board = deepcopy(self.board)
 
-        # skip the turn
-        if index == 64:
-            logger.info('lowkye skipuju tah')
-            return (board,[])
-
         # placing the actual stone
-        board[self.player][index] =1
-
-        self.stones[self.player] +=1
-
+        board[self.player][index] = 1
 
         if not self.poss_moves[self.player][index]:
             logger.error(f'tah na {index} neni v moznych tazich, idk jak se tohle deje kamo')
@@ -134,9 +129,6 @@ class Board:
                     for i in to_convert:
                         board[op_player][i] = 0
                         board[self.player][i] = 1
-
-                        self.stones[self.player] += 1
-                        self.stones[op_player] -= 1
                     break
                 else:
                     break
@@ -167,18 +159,34 @@ class Board:
     def is_game_over(self):
         """Determins if the game is over. Either because one player does not
         have stones or both are impotent."""
+        logger.info(f'\n{self}')
 
-        if not self._stones_left():
+        if self.stones[1]==0 or self.stones[-1] == 0:
+            logger.info(f'nekdo nema sutry \n{self} sutry jsou {self.stones}')
+            return True
+        
+
+        if not self.parent:
+            return False
+
+        if self.stones[1]+self.stones[-1] ==64:
+            logger.info(f'board je plny a kameny jsou {self.stones}')
+            logger.info(f'kameny by meli byt {np.sum(self.board[1]),np.sum(self.board[-1])}')
+            logger.info(f'board ve skutecnosti je \n{self}')
+            sys.exit()
             return True
 
-        current_player = self.player
-        self.player = 1
-        moves_1 = self.get_possible_moves()
-        self.player = -1
-        moves_neg1 = self.get_possible_moves()
-        self.player = current_player
+        if not np.any(self.poss_moves[self.player]) and not np.any(self.parent.poss_moves[-self.player]):
+            logger.info(f'ja board \n{self}\n mam tahy {self.poss_moves} a muj otec je {self.parent}')
+            logger.info(f'{self.poss_moves[self.player],self.parent.poss_moves[-self.player]}')
+            logger.info(f'ja jsem hrac {self.player}, muj otec je {self.parent.player}')
+            sys.exit()
+            return True
 
-        return not (np.sum(moves_1) or np.sum(moves_neg1))
+        if np.array_equal(self.board,self.parent.board) and not np.any(self.poss_moves[self.player]):
+            logger.info(f'uz jsem skipnul a nemuzu nic delat')
+            return True
+        return False
 
     def determine_winner(self):
         """Checks the number of stones left and return the number of winning
@@ -190,13 +198,5 @@ class Board:
             return 1
         return 0
 
-    def _stones_left(self):
-        """Checks if any player is out of stones"""
-
-        if not np.sum(self.board[1]):
-            return False
-        if not np.sum(self.board[-1]):
-            return False
-        return True
 
 

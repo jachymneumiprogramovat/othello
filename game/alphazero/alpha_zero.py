@@ -1,5 +1,6 @@
 from loguru import logger
 import numpy as np
+from copy import deepcopy
 
 from alphazero.model import Model
 from alphazero.alpha_mcts import AMCTS
@@ -22,34 +23,49 @@ class AlphaZero():
 
         game_memory = []
         player = 1
-        node = State(board = DEFAULT_BOARD,player=player,move = None)
-        turn = 0
-        for i in range(100):
-            # logger.info(f'------ tah {i} -----')
+        node = State(board = DEFAULT_BOARD,player=player,move = None,parent=None)
+        turn = 0  
+        passed = 0
+        while not node.is_game_over():
+            logger.info(f'------ tah {turn} -----')
+            logger.info(f'toto je stav \n{node} skoncila hra uz? {node.is_game_over()}')
+            # logger.info(f'toto jsou mozne tahy:')
+            # logger.info(f'{node.poss_moves},{node.player}')
+            # pretty_print([0,node.poss_moves[node.player],np.zeros(64)])
+            # logger.info(f'toto je hrac {node.player}')
             turn+=1
 
+            if turn >100:
+                logger.error(f'hra je ve stavu \n{node} a trva vic nez 100 tahu')
+                break
+
             #no moves so skipping the turn
-            poss_moves = node.get_possible_moves()
+            poss_moves = node.poss_moves[node.player]
+            if passed ==2:
+                logger.info(f'uz jsem dvakrat passnul ve stavu {node}')
+                break
+
             if not np.any(poss_moves):
-                node.player = -node.player      # pass the turn
+                logger.info(f'skipuju za boardu \n{node} jako hrac {node.player} a moje tahy jsou {node.poss_moves}')
+                passed +=1
+                new_node=State(board=deepcopy(node.board),player=-node.player,parent=node,move=np.zeros(64))   # pass the turn
+                node = new_node
                 continue
-
+            else:
+                passed = 0
             new_node,probs = self.mcts.choose_move(node)
-            game_memory.append((node.board,probs,new_node.move))
-            poss_moves = new_node.get_possible_moves()
-            if new_node.is_game_over():
-                logger.info(f'{new_node}')
-                winner = new_node.determine_winner()
-                for i in range(len(game_memory)):
-                    game_memory[i] = (*game_memory[i],winner)
-
-                logger.info(f'hra trvala {turn} tahu')
-                return game_memory
+            game_memory.append((node.board,probs,new_node.move)) #mozna to budu muset kopirovat
+            poss_moves = new_node.poss_moves[new_node.player]
 
             node = new_node
-            node.player = -node.player
-        logger.error('hra trvala dele nez 60 tahu coz je picovina')
-        return None
+
+
+        winner = node.determine_winner()
+        for i in range(len(game_memory)):
+            game_memory[i] = (*game_memory[i],winner)
+
+        return game_memory
+
 
 
     def train(self,examples:list):
