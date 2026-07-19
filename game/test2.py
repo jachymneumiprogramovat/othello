@@ -79,10 +79,9 @@ board[1][4*8+3]=1
 
 model = Model(num_channels=NUM_CHANNELS,num_hidden=NUM_HIDDEN,device='cpu')
 
+optimizer = torch.optim.Adam(model.parameters(), lr=0.001, weight_decay=0.0001)
 root = State(board=board,player=1,move=None,parent=None)
 
-alphazero = AlphaZero(model=model)
+alphazero = AlphaZero(model=model,optimizer=optimizer)
 
-for _ in tqdm(range(10)):
-    alphazero.selfplay()
-
+alphazero.learn()
