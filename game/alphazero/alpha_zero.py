@@ -1,4 +1,5 @@
 from loguru import logger
+import itertools
 import numpy as np
 from copy import deepcopy
 from tqdm import tqdm
@@ -51,7 +52,7 @@ class AlphaZero():
             else:
                 passed = 0
             new_node,probs = self.mcts.choose_move(node)
-            game_memory.append((node.board,probs,new_node.move,node.player)) 
+            game_memory.append([node.board,probs,new_node.move,node.player]) 
             poss_moves = new_node.poss_moves[new_node.player]
 
             node = new_node
@@ -59,9 +60,10 @@ class AlphaZero():
 
         winner = node.determine_winner()
         for i in range(len(game_memory)):
-            game_memory[i] = (game_memory[0],game_memory[1],game_memory[2],game_memory[3]*winner)
-            # pokud vyhral ten stejny hrac jako byl na tahu 
-
+            game_memory[i] = [game_memory[i][0],
+                              game_memory[i][1],
+                              game_memory[i][2],
+                              game_memory[i][3]*winner]
         return game_memory
 
 
@@ -75,15 +77,20 @@ class AlphaZero():
             batch_end = min(len(examples)-1,batch_index+BATCH_SIZE)
             batch_samples = examples[batch_index:batch_end]
 
-
+            # logger.info(f'batch samply jsou {list(itertools.chain(*batch_samples))}')
             boards,probs,moves,winner = zip(*batch_samples)
-            
-            logger.info(f'boardy maji tvar {np.array(boards).shape}')
-            boards = torch.tensor(boards[:, 1:3, :], dtype=torch.float32)
-            with torch.inference_mode():
-                out_policies, out_values = self.model(boards)
-                out_policies = torch.softmax(out_policies[0],0,dtype=torch.float32).cpu().numpy()
-                out_values = out_values.item()
+
+            boards,probs,moves,winner = (
+                np.array([board[1:] for board in boards]),
+                np.array(probs),
+                np.array(moves),
+                np.array(winner)
+            )
+
+            boards = torch.tensor(boards, dtype=torch.float32)
+
+            out_policies, out_values = self.model(boards)
+            out_policies = torch.softmax(out_policies,0,dtype=torch.float32).cpu()
 
             policy_targets = torch.tensor(
                 probs, dtype=torch.float32, device=self.model.device
@@ -110,7 +117,10 @@ class AlphaZero():
             examples = []
             print(examples)
             for _ in tqdm(range(SELFPLAY_ITER)):
-                examples.extend(self.selfplay())
+                priklady = self.selfplay()
+                logger.info(f'toto jsou priklady {len(priklady)}')
+                examples.extend(priklady)
+                print(len(examples))
 
             for _ in range(EPOCH_NUM):
                 self.train(examples)
