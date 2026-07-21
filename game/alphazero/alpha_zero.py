@@ -34,6 +34,7 @@ class AlphaZero():
         passed = 0
         while not node.is_game_over():
             turn+=1
+            # logger.info(f'\n{node}')
 
             if turn >100:
                 logger.error(f'hra je ve stavu \n{node} a trva vic nez 100 tahu')
@@ -56,7 +57,6 @@ class AlphaZero():
             poss_moves = new_node.poss_moves[new_node.player]
 
             node = new_node
-
 
         winner = node.determine_winner()
         for i in range(len(game_memory)):
@@ -100,14 +100,13 @@ class AlphaZero():
             )
 
             policy_loss = F.cross_entropy(out_policies, policy_targets)
-            value_loss = F.mse_loss(out_values, value_target)
+            value_loss = F.mse_loss(out_values.squeeze(), value_target)
             loss = policy_loss + value_loss
 
             self.optimizer.zero_grad()
             loss.backward()
             self.optimizer.step()
 
-        print(len(examples))
 
     def learn(self):
         """ Runs all the iterations. Each iteration produces a lot of examples
@@ -115,13 +114,13 @@ class AlphaZero():
         for iteration in range(ITERATIONS):
             logger.info(f'----- iterace {iteration} ----')
             examples = []
-            print(examples)
+
+            logger.info('generování prikladu')
             for _ in tqdm(range(SELFPLAY_ITER)):
                 priklady = self.selfplay()
-                logger.info(f'toto jsou priklady {len(priklady)}')
                 examples.extend(priklady)
-                print(len(examples))
 
+            logger.info('trenovani modelu')
             for _ in range(EPOCH_NUM):
                 self.train(examples)
 

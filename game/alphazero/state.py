@@ -45,6 +45,7 @@ class State(Board):
         for tile in self.board[-1]:
             if tile:
                 self.stones[-1]+=1
+
     @torch.no_grad()
     def get_ucb(self,parent_value:float):
         """Calculate the UCB for a given child node."""
@@ -59,6 +60,7 @@ class State(Board):
             * (np.sqrt(parent_value) / (self.visited + 1))
             * self.prob
         )
+        # logger.info(f'pro vrchol \n{self} mam UCB {ucb} a polici {self.prob}')
         return ucb
     def is_expanded(self):
         return len(self.children)>0

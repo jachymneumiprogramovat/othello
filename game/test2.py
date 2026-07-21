@@ -63,6 +63,22 @@ logger.add(
 )
 
 
+def pretty_print(board)->str:
+    repr=[]
+    for i in range(64):
+        if board[1][i]:
+            repr.append(' 1')
+        elif board[-1][i]:
+            repr.append('-1')
+        else:
+            repr.append(' 0')
+    repr_string = ''
+    for i in range(8):
+        repr_string+= ' '.join(repr[i*8:(i+1)*8])
+        repr_string+='\n'
+    print(repr_string)
+
+
 from alphazero.alpha_mcts import AMCTS
 from alphazero.model import Model
 from alphazero.state import State
