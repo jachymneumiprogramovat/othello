@@ -84,7 +84,7 @@ def normal_main(screen):
         pg.display.update(rect_to_change)
     if board.is_game_over():
         winner = board.determine_winner()
-        game.award_winner(winner,board.stones[1],board.stones[-1])
+        game.award_winner(winner,board.stones[-1],board.stones[1])
         pg.display.flip()
         running = True
         while running:

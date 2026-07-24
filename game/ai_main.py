@@ -116,7 +116,7 @@ def ai_main(screen,rollout_count=100,simulation_count=5):
 
     if board.is_game_over():
         winner = board.determine_winner()
-        game.award_winner(winner,board.stones[1],board.stones[-1])
+        game.award_winner(winner,board.stones[-1],board.stones[1])
         pg.display.flip()
         running = True
         while running:
