@@ -93,7 +93,7 @@ board[1][3*8+4]=1
 board[1][4*8+3]=1
 
 
-model = Model(num_channels=NUM_CHANNELS,num_hidden=NUM_HIDDEN,device='cpu')
+model = Model(num_channels=NUM_CHANNELS,num_hidden=NUM_HIDDEN,device=DEVICE)
 
 optimizer = torch.optim.Adam(model.parameters(), lr=0.001, weight_decay=0.0001)
 root = State(board=board,player=1,move=None,parent=None)

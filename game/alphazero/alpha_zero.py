@@ -80,24 +80,22 @@ class AlphaZero():
             # logger.info(f'batch samply jsou {list(itertools.chain(*batch_samples))}')
             boards,probs,moves,winner = zip(*batch_samples)
 
-            boards,probs,moves,winner = (
-                np.array([board[1:] for board in boards]),
-                np.array(probs),
+            boards,policy_targets,moves,value_target = (
+                torch.tensor([board[1:] for board in boards],dtype=torch.float32,device=self.model.device),
+                torch.tensor(probs, dtype=torch.float32, device=self.model.device),
                 np.array(moves),
-                np.array(winner)
+                torch.tensor(winner,dtype=torch.float32,device=self.model.device)
             )
-
-            boards = torch.tensor(boards, dtype=torch.float32)
 
             out_policies, out_values = self.model(boards)
-            out_policies = torch.softmax(out_policies,0,dtype=torch.float32).cpu()
+            out_policies = torch.softmax(out_policies,0,dtype=torch.float32)
 
-            policy_targets = torch.tensor(
-                probs, dtype=torch.float32, device=self.model.device
-            )
-            value_target = torch.tensor(
-                winner, dtype=torch.float32, device=self.model.device
-            )
+            # policy_targets = torch.tensor(
+            #     probs, dtype=torch.float32, device=self.model.device
+            # )
+            # value_target = torch.tensor(
+            #     winner, dtype=torch.float32, device=self.model.device
+            # )
 
             policy_loss = F.cross_entropy(out_policies, policy_targets)
             value_loss = F.mse_loss(out_values.squeeze(), value_target)

@@ -5,7 +5,7 @@ NUM_CHANNELS = 2
 rows = 8
 cols = 8
 INPUT_CHANNELS = 2
-DEVICE = 'cpu'
+DEVICE = 'cuda'
 
 EXPLORATION = 1
 ROLLOUT_COUNT = 50
