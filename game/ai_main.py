@@ -21,14 +21,14 @@ from game.constants import *
 
 
 mts = MTS()
-def get_mcts_move(board:list,player:int):
+def get_mcts_move(board:list,player:int,rollout_count,simulation_count):
     root = MTSNode(board =board,player=-player,move=None)
-    for _ in tqdm(range(ROLLOUT_COUNT)):
-        mts.rollout(root=root)
+    for _ in tqdm(range(rollout_count)):
+        mts.rollout(root=root,simulation_count=simulation_count)
     child = mts.select_best_child(root)
     return child.move
 
-def ai_main(screen):
+def ai_main(screen,rollout_count=100,simulation_count=5):
     clock = pg.time.Clock()
     running = True
 
@@ -75,7 +75,12 @@ def ai_main(screen):
                     move_made = True
         # AI plays
         else:
-            move = get_mcts_move(board.board,-board.player)
+            move = get_mcts_move(
+                board.board,
+                -board.player,
+                rollout_count=rollout_count,
+                simulation_count=simulation_count
+            )
             logger.info(f'AI si vybralo tah {move}')
             poss_moves = board.get_possible_moves()
             move_made = True
@@ -111,4 +116,12 @@ def ai_main(screen):
 
     if board.is_game_over():
         winner = board.determine_winner()
-        logger.info(f'game won by player {winner}')
+        game.award_winner(winner,board.stones[-1],board.stones[1])
+        pg.display.flip()
+        running = True
+        while running:
+            for event in pg.event.get():
+                if event.type == pg.QUIT:
+                    logger.info(choice(GOODBYE_MESSAGES))
+                    running = False
+

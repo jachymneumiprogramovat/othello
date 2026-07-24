@@ -75,7 +75,7 @@ class MTS():
             node.results[reward] += 1
             logger.debug(f'nastavil jsem visity pro {node.board} na {node.visited}')
 
-    def rollout(self,root:MTSNode):
+    def rollout(self,root:MTSNode,simulation_count:int):
         """ Performs select and expand in need, then simulate and finally
         backpropagate """
         path = self.select(root)
@@ -87,7 +87,7 @@ class MTS():
             leaf.children.append(new_node)
             path.append(new_node)
         logger.debug(f'synove listu jsou {[x.board for x in leaf.children]}')
-        for _ in range(SIMULATION_COUNT):
+        for _ in range(simulation_count):
             reward = self.simulate(leaf)
             self.backpropagate(path,reward)
 

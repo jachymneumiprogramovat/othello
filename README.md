@@ -40,9 +40,7 @@ budou tyto hodnoty tím pomalejší bude hra s AI, ale tím lepší protivník b
 
 Počáteční hodnoty jsou 100 a 5, což tvoří ideálního protivníka pro začátečníky
 v Othellu. Pokud byste si chtěli navýšit obtížnost a nevadí vám si počkat tak
-doporučujeme do souboru `ai/mts_constants.py` zavítat a tyto hodnoty změnit.
-Stejné doporučení máme pokud se snažíte hrát na bramboře nebo pokud neoplýváte
-trpělivostí.
+upravte hodnoty pod tlačítkem 'Human vs AI.' a po každé stiskněte enter.
 
 ### Konec hry
 Hra končí pokud jeden z hráčů nemá už žádné kameny, nebo pokud ani jeden z
