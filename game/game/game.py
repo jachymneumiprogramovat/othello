@@ -61,19 +61,25 @@ class Game:
         self._draw_grid()
         self._draw_initial_stones()
 
-    def draw_squares(self,squares:list[tuple],color:tuple)->list:
+    def draw_squares(self,squares:list[int],color:tuple)->list:
         """Draw all the squares provided with color. Returns list of affected
         rects."""
         logger.debug(f'dostal jsem na nakresleni {squares}')
         affected_rects = []
-        for tile in squares:
-            coordinates = tuple(reversed([(x+0.5)*self.cell_height for x in tile]))
-            affected_rects.append(
-                self._draw_stone(
-                    target=coordinates,
-                    color=color
+        for index,tile in enumerate(squares):
+            if tile:
+                logger.debug(f'index je {index}, jeho tile je {index//8,index%8}')
+                coordinates = tuple(reversed([
+                    (index//8+0.5)*self.cell_height,
+                    (index%8+0.5)*self.cell_width])
+                                    )
+
+                affected_rects.append(
+                    self._draw_stone(
+                        target=coordinates,
+                        color=color
+                        )
                     )
-                )
         logger.debug(f'vracim seznam rectu {affected_rects}')
         return affected_rects
     

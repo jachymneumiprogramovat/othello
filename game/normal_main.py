@@ -22,7 +22,7 @@ def normal_main(screen):
     pg.display.flip()
     logger.info('screen setup')
 
-    board = Board()
+    board = Board(parent=None)
     board.setup_board()
     logger.info('logic setup')
 
@@ -36,7 +36,7 @@ def normal_main(screen):
         rect_to_change = []
         poss_moves = board.get_possible_moves()
             
-        if not poss_moves:
+        if not np.any(poss_moves):
             if board.is_game_over():
                 winner = board.determine_winner()
                 logger.info(f'Hru vyhrává hráč {winner}')
@@ -53,17 +53,20 @@ def normal_main(screen):
             if event.type == pg.MOUSEBUTTONDOWN:
                 logger.debug("Mouse click signal received.")
                 tile = tuple(np.array(event.pos)//100)
-                tile = (tile[1],tile[0])
-                logger.info(str(tuple(int(x) for x in tile)))
-                
+                index = tile[1]*8+tile[0]
+                move = np.zeros(64)
+                move[index] =1
+                logger.info(f'toto je index {index}')
+
                 poss_moves = board.poss_moves[board.player]
                 logger.info(f'{tile},{[x for x in poss_moves]}')
-                
-                if not tile in poss_moves:
+
+                if not poss_moves[index]:
                     continue
 
-                # play the move 
-                new_board, to_change = board.play_move(tile)
+                # play the move
+                new_board, to_change = board.play_move(index)
+                to_change[index]=1
                 board.board=new_board
                 curr_color = WHITE_COLOR if board.player ==-1 else BLACK_COLOR
                 rect_to_change=game.draw_squares(to_change,curr_color)
@@ -76,7 +79,7 @@ def normal_main(screen):
                 board.player *=-1
                 next_poss_moves = board.get_possible_moves()
 
-                poss_moves.remove(tile)
+                poss_moves[index] =0
                 rect_to_change+=game.draw_squares(poss_moves, TILE_COLOR)
                 rect_to_change+=game.draw_squares(next_poss_moves,HIGHLITE_COLOR)
 

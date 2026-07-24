@@ -105,7 +105,7 @@ class Board:
 
         if not self.poss_moves[self.player][index]:
             logger.error(f'tah na {index} neni v moznych tazich, idk jak se tohle deje kamo')
-        changed = []
+        changed = np.zeros(64)
         op_player = -self.player
         for dir in self.dirs:
             nindex = dir+index
@@ -125,8 +125,8 @@ class Board:
                     to_convert.append(it_index)
                 
                 elif my_stone:
-                    changed.append(to_convert)
                     for i in to_convert:
+                        changed[i]=1
                         board[op_player][i] = 0
                         board[self.player][i] = 1
                     break

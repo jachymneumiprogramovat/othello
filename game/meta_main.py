@@ -139,46 +139,46 @@ if __name__ == "__main__":
         format="<green>{file}/{function}/{line}</green> <level>{message}</level>",
         filter=info_filter,
     )
-    # logger.add(
-    #     sys.stdout,
-    #     colorize=True,
-    #     format="<green>{file}/{function}/{line}</green> <level>{message}</level>",
-    #     filter=info_filter,
-    # )
+    logger.add(
+        sys.stdout,
+        colorize=True,
+        format="<green>{file}/{function}/{line}</green> <level>{message}</level>",
+        filter=info_filter,
+    )
     logger.add(
         os.path.join(base_dir, "main.log"),
         colorize=True,
         format="<yellow>{file} {message} </yellow>",
         filter=success_filter
     )
-    # logger.add(
-    #     sys.stdout,
-    #     colorize=True,
-    #     format="<yellow>{file} {message} </yellow>",
-    #     filter=success_filter
-    # )
+    logger.add(
+        sys.stdout,
+        colorize=True,
+        format="<yellow>{file} {message} </yellow>",
+        filter=success_filter
+    )
     logger.add(
         os.path.join(base_dir, "main.log"),
         colorize=True,
         format="<red>{file}/{function}/{line} {message}</red>",
         filter=error_filter,
     )
-    # logger.add(
-    #     sys.stdout,
-    #     colorize=True,
-    #     format="<red>{file}/{function}/{line} {message}</red>",
-    #     filter=error_filter,
-    # )
+    logger.add(
+        sys.stdout,
+        colorize=True,
+        format="<red>{file}/{function}/{line} {message}</red>",
+        filter=error_filter,
+    )
     logger.add(
         os.path.join(base_dir, "main.log"),
         colorize=True,
         format="<green>{file}/{function}/{line} {message}</green>",
         filter=debug_filter,
     )
-    # logger.add(
-    #     sys.stdout,
-    #     colorize=True,
-    #     format="<green>{file}/{function}/{line} {message}</green>",
-    #     filter=debug_filter,
-    # )
+    logger.add(
+        sys.stdout,
+        colorize=True,
+        format="<green>{file}/{function}/{line} {message}</green>",
+        filter=debug_filter,
+    )
     main()
